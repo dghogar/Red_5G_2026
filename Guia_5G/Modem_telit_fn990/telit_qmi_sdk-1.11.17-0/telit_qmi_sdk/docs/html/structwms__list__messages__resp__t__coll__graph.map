@@ -1,0 +1,5 @@
+<map id="wms_list_messages_resp_t" name="wms_list_messages_resp_t">
+<area shape="rect" id="Node000001" title="output type for QMI_WMS_LIST_MESSAGES" alt="" coords="5,93,205,119"/>
+<area shape="rect" id="Node000002" href="$structwms__message__instance__t.html" title="QMI WMS message data instance type." alt="" coords="9,5,202,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,45,108,93,103,93,103,45"/>
+</map>

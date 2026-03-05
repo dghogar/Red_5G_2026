@@ -1,0 +1,5 @@
+<map id="loc_delete_gnss_service_data_t" name="loc_delete_gnss_service_data_t">
+<area shape="rect" id="Node000001" title="input type for QMI_LOC_DELETE_GNSS_SERVICE_DATA request" alt="" coords="5,93,185,133"/>
+<area shape="rect" id="Node000002" href="$structloc__sat__sys__data__t.html" title="QMI LOC GNSS Service Data type." alt="" coords="23,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,44,98,93,93,93,93,44"/>
+</map>

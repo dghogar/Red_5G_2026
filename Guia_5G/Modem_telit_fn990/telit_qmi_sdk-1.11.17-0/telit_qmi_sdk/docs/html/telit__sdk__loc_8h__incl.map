@@ -1,0 +1,15 @@
+<map id="sdk_docs/telit_sdk_loc.h" name="sdk_docs/telit_sdk_loc.h">
+<area shape="rect" id="Node000001" title="LOC pack/unpack functions Service ID: QMI_SVC_LOC (16)" alt="" coords="74,5,217,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="59,93,127,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,47,111,83,106,80,131,44"/>
+<area shape="rect" id="Node000003" href="$telit__sdk_8h.html" title="SDK core functions." alt="" coords="152,93,243,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,44,184,80,180,83,156,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,167,88,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,121,85,163,83,158,172,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="112,167,187,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="192,121,167,157,162,154,187,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,167,282,192"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="208,117,233,154,229,157,203,121"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="306,167,382,192"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="222,116,309,158,307,163,220,121"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="wms_modify_tag_t" name="wms_modify_tag_t">
+<area shape="rect" id="Node000001" title="input type for QMI_WMS_MODIFY_TAG" alt="" coords="12,93,157,119"/>
+<area shape="rect" id="Node000002" href="$structwms__message__tag__t.html" title="QMI WMS message tag type." alt="" coords="5,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,45,87,93,82,93,82,45"/>
+</map>

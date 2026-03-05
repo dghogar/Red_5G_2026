@@ -1,0 +1,7 @@
+<map id="nas_umts_info_t" name="nas_umts_info_t">
+<area shape="rect" id="Node000001" title="QMI NAS set of UMTS cells type." alt="" coords="114,93,243,119"/>
+<area shape="rect" id="Node000002" href="$structnas__umts__inst__info__t.html" title="QMI NAS UMTS cell parameters type." alt="" coords="5,5,165,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,38,167,91,164,95,106,42"/>
+<area shape="rect" id="Node000003" href="$structnas__geran__inst__info__t.html" title="QMI NAS GERAN cell parameters type." alt="" coords="190,5,354,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,43,222,71,194,95,191,91,218,67,248,39"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="sdk_docs/tqcm_atr.h" name="sdk_docs/tqcm_atr.h">
+<area shape="rect" id="Node000001" title="Telit ATR requests." alt="" coords="124,5,279,31"/>
+<area shape="rect" id="Node000002" href="$telit__sdk_8h.html" title="SDK core functions." alt="" coords="152,152,243,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,33,155,52,134,80,132,97,139,113,152,129,168,142,164,146,148,133,134,116,127,98,130,78,152,49,178,29"/>
+<area shape="rect" id="Node000007" href="$telit__sdk__atr_8h.html" title="ATR pack/unpack functions Service ID: QMI_SVC_ATR (237)" alt="" coords="144,79,259,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="204,31,204,65,199,65,199,31"/>
+<area shape="rect" id="Node000008" href="$tqcm_8h.html" title="TQCM Public API." alt="" coords="283,79,349,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="221,28,287,69,284,74,218,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,225,88,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,180,85,222,83,217,172,175"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="112,225,187,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,179,167,216,162,213,187,176"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,225,282,251"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="208,176,233,213,229,216,203,179"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="306,225,382,251"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="222,175,309,217,307,222,220,180"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="203,104,201,139,196,138,198,104"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="298,106,230,147,227,142,296,102"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="267,152,373,177"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="319,104,321,138,316,139,314,104"/>
+</map>

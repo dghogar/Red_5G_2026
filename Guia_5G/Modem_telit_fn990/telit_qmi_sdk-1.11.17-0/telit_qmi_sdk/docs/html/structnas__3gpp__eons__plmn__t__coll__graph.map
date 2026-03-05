@@ -1,0 +1,9 @@
+<map id="nas_3gpp_eons_plmn_t" name="nas_3gpp_eons_plmn_t">
+<area shape="rect" id="Node000001" title="QMI NAS 3GPP EONS type." alt="" coords="174,93,349,119"/>
+<area shape="rect" id="Node000002" href="$structnas__plmn__name__t.html" title="QMI NAS PLMN name type." alt="" coords="5,5,147,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,34,237,91,235,95,112,39"/>
+<area shape="rect" id="Node000003" href="$structnas__plmn__name__short__t.html" title="QMI NAS PLMN short name info type." alt="" coords="171,5,352,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,45,264,93,259,93,259,45"/>
+<area shape="rect" id="Node000004" href="$structnas__plmn__name__long__t.html" title="QMI NAS PLMN long name info type." alt="" coords="376,5,552,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="426,39,349,72,291,96,289,91,347,67,424,34"/>
+</map>

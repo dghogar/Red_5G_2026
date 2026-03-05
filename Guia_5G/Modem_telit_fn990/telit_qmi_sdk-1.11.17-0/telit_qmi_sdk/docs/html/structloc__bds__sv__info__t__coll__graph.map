@@ -1,0 +1,5 @@
+<map id="loc_bds_sv_info_t" name="loc_bds_sv_info_t">
+<area shape="rect" id="Node000001" title="QMI LOC SV Info type." alt="" coords="36,93,173,119"/>
+<area shape="rect" id="Node000002" href="$structloc__bds__sv__info__instance__t.html" title="QMI LOC SV Info Instance type." alt="" coords="5,5,204,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,45,107,93,102,93,102,45"/>
+</map>

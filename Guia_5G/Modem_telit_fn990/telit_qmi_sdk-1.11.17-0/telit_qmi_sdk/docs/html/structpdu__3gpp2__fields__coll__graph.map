@@ -1,0 +1,8 @@
+<map id="pdu_3gpp2_fields" name="pdu_3gpp2_fields">
+<area shape="rect" id="Node000001" title="Telit SMS helper 3GPP2 PDU type." alt="" coords="5,185,140,211"/>
+<area shape="rect" id="Node000002" href="$structaddress__3gpp2__t.html" title="Telit SMS helper 3GPP2 address type." alt="" coords="7,5,139,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,44,66,93,68,144,73,185,68,186,62,145,61,93,66,44"/>
+<area shape="rect" id="Node000003" href="$structbearer__data__fields__t.html" title="Telit SMS helper 3GPP2 beared data type." alt="" coords="138,95,293,121"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="104,36,198,93,195,98,102,40"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,130,93,188,90,183,184,126"/>
+</map>

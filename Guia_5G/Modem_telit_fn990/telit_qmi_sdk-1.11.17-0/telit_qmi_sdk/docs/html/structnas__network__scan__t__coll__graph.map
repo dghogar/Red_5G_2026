@@ -1,0 +1,9 @@
+<map id="nas_network_scan_t" name="nas_network_scan_t">
+<area shape="rect" id="Node000001" title="output type for QMI_NAS_PERFORM_NETWORK_SCAN" alt="" coords="209,93,363,119"/>
+<area shape="rect" id="Node000002" href="$structnas__3gpp__network__info__t.html" title="QMI NAS network info from scan type." alt="" coords="5,5,193,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,42,116,56,126,67,166,88,209,99,208,104,164,93,123,71,112,59,104,45"/>
+<area shape="rect" id="Node000003" href="$structnas__rat__info__t.html" title="QMI NAS nas rat info type." alt="" coords="229,5,343,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="289,45,289,93,283,93,283,45"/>
+<area shape="rect" id="Node000004" href="$structnas__pcs__digit__t.html" title="QMI NAS pcs digit type." alt="" coords="367,5,490,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="399,40,307,95,304,91,397,35"/>
+</map>

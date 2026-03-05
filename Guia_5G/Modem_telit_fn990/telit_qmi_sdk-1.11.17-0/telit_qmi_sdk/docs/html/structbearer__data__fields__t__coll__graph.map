@@ -1,0 +1,5 @@
+<map id="bearer_data_fields_t" name="bearer_data_fields_t">
+<area shape="rect" id="Node000001" title="Telit SMS helper 3GPP2 beared data type." alt="" coords="5,93,160,119"/>
+<area shape="rect" id="Node000002" href="$structaddress__3gpp2__t.html" title="Telit SMS helper 3GPP2 address type." alt="" coords="17,5,149,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,45,85,93,80,93,80,45"/>
+</map>

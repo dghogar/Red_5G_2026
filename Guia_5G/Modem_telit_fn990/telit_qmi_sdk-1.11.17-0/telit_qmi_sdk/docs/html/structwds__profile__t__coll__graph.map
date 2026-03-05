@@ -1,0 +1,23 @@
+<map id="wds_profile_t" name="wds_profile_t">
+<area shape="rect" id="Node000001" title="QMI WDS data connection profile type." alt="" coords="825,235,933,261"/>
+<area shape="rect" id="Node000002" href="$structwds__settings__profile__id__t.html" title="QMI WDS profile id information type." alt="" coords="449,178,636,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="650,201,802,225,833,233,832,238,801,231,649,206"/>
+<area shape="rect" id="Node000003" href="$structwds__settings__profile__info__t.html" title="QMI WDS data connection profile details type." alt="" coords="465,228,620,268"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="634,245,825,245,825,251,634,251"/>
+<area shape="rect" id="Node000004" href="$structwds__umts__qos__t.html" title="QMI WDS UMTS qos type." alt="" coords="57,69,188,94"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,64,257,61,317,65,375,80,403,93,427,111,437,124,442,137,441,163,440,188,443,201,451,213,467,226,464,230,447,216,438,203,435,189,436,162,437,138,433,126,424,115,400,98,373,85,316,70,257,66,202,70"/>
+<area shape="rect" id="Node000005" href="$structwds__gprs__qos__t.html" title="QMI WDS GPRS QOS type." alt="" coords="60,126,185,151"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="199,139,328,151,386,161,427,176,436,185,440,195,444,204,451,213,472,226,470,230,448,217,439,207,435,197,432,188,424,181,385,166,327,156,199,144"/>
+<area shape="rect" id="Node000006" href="$structwds__pcscf__fqdn__item__t.html" title="QMI WDS PCSCF FQDN list type." alt="" coords="35,175,210,201"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="224,191,322,200,426,215,474,225,472,231,425,220,321,205,223,196"/>
+<area shape="rect" id="Node000007" href="$structwds__ipv6__addr__with__prefix__t.html" title="QMI WDS ipv6 address with prefix length type." alt="" coords="45,225,200,265"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="214,244,264,244,465,245,465,250,264,249,214,249"/>
+<area shape="rect" id="Node000008" href="$structwds__domain__name__t.html" title="QMI WDS domain name type." alt="" coords="43,290,203,315"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="216,291,425,265,465,259,466,264,426,271,217,296"/>
+<area shape="rect" id="Node000009" href="$structwds__tft__parameters__t.html" title="QMI WDS traffic flow template parameters type." alt="" coords="41,341,204,366"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="218,362,268,363,322,357,375,344,424,321,432,312,435,301,439,290,448,278,466,266,469,270,451,282,443,292,440,303,437,314,427,325,377,349,323,363,269,368,218,368"/>
+<area shape="rect" id="Node000010" href="$structwds__3gpp__lte__qos__parameters__t.html" title="QMI WDS 3GPP LTE QOS parameters type." alt="" coords="5,390,240,415"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="185,416,242,424,305,424,337,420,368,412,397,400,424,382,433,371,437,359,436,334,435,307,438,292,447,278,463,265,467,269,451,282,443,294,440,307,442,334,443,360,438,374,427,386,400,405,370,417,338,426,305,430,241,429,184,421"/>
+<area shape="rect" id="Node000011" href="$structwds__profile__ext__err__t.html" title="QMI WDS generic extended error type." alt="" coords="462,293,623,318"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="637,292,801,265,832,258,833,263,802,271,638,297"/>
+</map>

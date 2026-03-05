@@ -1,0 +1,9 @@
+<map id="uim_verify_pin_info_t" name="uim_verify_pin_info_t">
+<area shape="rect" id="Node000001" title="input type for QMI_UIM_VERIFY_PIN" alt="" coords="219,108,382,133"/>
+<area shape="rect" id="Node000002" href="$structuim__session__information__t.html" title="QMI UIM session information type." alt="" coords="5,13,204,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,47,139,66,159,82,189,96,221,105,219,110,187,101,157,86,135,70,119,51"/>
+<area shape="rect" id="Node000003" href="$structuim__verify__pin__pin__information__t.html" title="QMI UIM verify pin information type." alt="" coords="228,5,373,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="303,59,303,108,298,108,298,59"/>
+<area shape="rect" id="Node000004" href="$structuim__encrypted__pin1__t.html" title="QMI UIM encrypted PIN1 type." alt="" coords="397,13,564,38"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="448,47,324,110,322,106,445,42"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="cat_send_tr_input_t" name="cat_send_tr_input_t">
+<area shape="rect" id="Node000001" title="input type for QMI_CAT_SEND_TR" alt="" coords="13,108,163,133"/>
+<area shape="rect" id="Node000002" href="$structcat__generic__proactive__command__t.html" title="generic proactive command type" alt="" coords="5,5,171,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,59,91,108,85,108,85,59"/>
+</map>

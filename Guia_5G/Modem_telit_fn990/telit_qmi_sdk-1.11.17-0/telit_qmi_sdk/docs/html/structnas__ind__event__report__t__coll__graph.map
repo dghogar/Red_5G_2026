@@ -1,0 +1,7 @@
+<map id="nas_ind_event_report_t" name="nas_ind_event_report_t">
+<area shape="rect" id="Node000001" title="output type for QMI_NAS_EVENT_REPORT_IND" alt="" coords="93,108,267,133"/>
+<area shape="rect" id="Node000002" href="$structnas__ind__event__report__signal__strength__t.html" title="QMI NAS signal strength info type." alt="" coords="5,5,168,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,54,141,82,168,106,164,110,137,86,110,58"/>
+<area shape="rect" id="Node000003" href="$structnas__ind__event__report__registration__reject__t.html" title="QMI NAS registration status info type." alt="" coords="192,5,355,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,60,246,86,229,100,211,110,208,105,226,95,242,82,259,57"/>
+</map>

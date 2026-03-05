@@ -1,0 +1,21 @@
+<map id="sdk_docs/tqcm_wds.h" name="sdk_docs/tqcm_wds.h">
+<area shape="rect" id="Node000001" title="WDS requests." alt="" coords="118,5,282,31"/>
+<area shape="rect" id="Node000002" href="$telit__sdk_8h.html" title="SDK core functions." alt="" coords="152,152,243,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,33,151,52,129,80,127,97,134,114,148,129,166,143,162,147,145,133,130,117,121,98,124,78,147,48,175,29"/>
+<area shape="rect" id="Node000007" href="$telit__sdk__wds_8h.html" title="WDS pack/unpack functions Service ID: QMI_SVC_WDS (1)" alt="" coords="139,79,261,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="203,31,203,65,197,65,197,31"/>
+<area shape="rect" id="Node000008" href="$tqcm_8h.html" title="TQCM Public API." alt="" coords="285,79,352,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="220,28,289,69,286,74,218,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,225,88,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,180,85,222,83,217,172,175"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="112,225,187,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,179,167,216,162,213,187,176"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,225,282,251"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="208,176,233,213,229,216,203,179"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="306,225,382,251"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="222,175,309,217,307,222,220,180"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="202,104,201,139,196,138,197,104"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="301,106,230,147,227,143,298,102"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="267,152,373,177"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="322,104,322,138,317,139,316,104"/>
+</map>

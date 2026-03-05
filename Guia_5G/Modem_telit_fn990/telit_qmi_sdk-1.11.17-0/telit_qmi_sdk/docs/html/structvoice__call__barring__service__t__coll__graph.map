@@ -1,0 +1,5 @@
+<map id="voice_call_barring_service_t" name="voice_call_barring_service_t">
+<area shape="rect" id="Node000001" title="QMI VOICE call barring service." alt="" coords="5,108,145,148"/>
+<area shape="rect" id="Node000002" href="$structvoice__call__barring__number__t.html" title="QMI VOICE call barring number type." alt="" coords="5,5,145,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,59,78,108,73,108,73,59"/>
+</map>

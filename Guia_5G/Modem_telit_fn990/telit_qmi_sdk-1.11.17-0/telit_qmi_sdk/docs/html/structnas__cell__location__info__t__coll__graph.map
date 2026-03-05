@@ -1,0 +1,40 @@
+<map id="nas_cell_location_info_t" name="nas_cell_location_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_NAS_GET_CELL_LOCATION_INFO" alt="" coords="1217,232,1396,257"/>
+<area shape="rect" id="Node000002" href="$structnas__geran__info__t.html" title="QMI NAS set of GERAN cells type." alt="" coords="809,16,942,41"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="956,22,1012,24,1074,32,1137,49,1195,77,1216,93,1236,113,1267,156,1290,199,1303,231,1298,233,1285,201,1263,159,1232,116,1213,97,1192,82,1135,54,1073,38,1012,29,956,27"/>
+<area shape="rect" id="Node000003" href="$structnas__nmr__cell__info__t.html" title="QMI NAS NMR cell parameters type." alt="" coords="393,5,545,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="559,18,808,24,808,30,559,23"/>
+<area shape="rect" id="Node000004" href="$structnas__umts__info__t.html" title="QMI NAS set of UMTS cells type." alt="" coords="811,92,940,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="954,97,1009,97,1071,102,1134,114,1194,136,1228,156,1258,182,1298,230,1294,233,1254,186,1225,161,1192,140,1133,119,1070,108,1009,102,954,102"/>
+<area shape="rect" id="Node000005" href="$structnas__umts__inst__info__t.html" title="QMI NAS UMTS cell parameters type." alt="" coords="389,55,549,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="563,73,810,96,810,101,562,79"/>
+<area shape="rect" id="Node000006" href="$structnas__geran__inst__info__t.html" title="QMI NAS GERAN cell parameters type." alt="" coords="387,104,551,129"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="565,113,759,109,810,106,811,111,759,114,565,119"/>
+<area shape="rect" id="Node000007" href="$structnas__lte__info__intrafreq__t.html" title="QMI NAS LTE intra&#45;frequencies information type." alt="" coords="583,152,759,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="773,162,969,172,1082,185,1194,203,1237,215,1276,229,1274,234,1236,220,1193,209,1081,190,968,178,772,168"/>
+<area shape="rect" id="Node000008" href="$structnas__cell__params__t.html" title="QMI NAS cell parameters type." alt="" coords="21,177,163,203"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="177,184,582,166,583,171,177,189"/>
+<area shape="rect" id="Node000010" href="$structnas__inter__freqs__info__t.html" title="QMI NAS inter&#45;frequencies information type." alt="" coords="386,205,553,231"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="162,203,203,209,298,215,386,217,386,222,297,221,202,214,161,208"/>
+<area shape="rect" id="Node000009" href="$structnas__lte__info__interfreq__t.html" title="QMI NAS LTE inter&#45;frequencies information type." alt="" coords="787,205,963,231"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="977,222,1217,237,1217,242,977,227"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="566,215,787,215,787,221,566,221"/>
+<area shape="rect" id="Node000011" href="$structnas__lte__info__neighboring__gsm__t.html" title="QMI NAS LTE neighboring GSM cell type." alt="" coords="783,255,968,295"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="982,269,1193,255,1216,253,1217,258,1194,261,982,274"/>
+<area shape="rect" id="Node000012" href="$structnas__lte__gsm__cell__info__t.html" title="QMI NAS LTE, GSM cell instance type." alt="" coords="380,263,559,288"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="572,273,782,273,782,278,572,278"/>
+<area shape="rect" id="Node000013" href="$structnas__gsm__cell__info__t.html" title="QMI NAS GSM cell instance type." alt="" coords="15,263,169,288"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="183,273,380,273,380,278,183,278"/>
+<area shape="rect" id="Node000014" href="$structnas__lte__info__neighboring__wcdma__t.html" title="QMI NAS WCDMA Info &#45; LTE Neighbor Cell Info Set type." alt="" coords="783,319,968,359"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="982,336,1085,327,1140,317,1192,303,1244,281,1286,255,1289,260,1247,285,1194,309,1141,322,1086,332,982,341"/>
+<area shape="rect" id="Node000015" href="$structnas__lte__wcdma__cell__info__t.html" title="QMI NAS LTE, WCDMA cell instance type." alt="" coords="393,319,546,359"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="560,337,782,337,782,342,560,342"/>
+<area shape="rect" id="Node000016" href="$structnas__wcdma__cell__info__t.html" title="QMI NAS WCDMA cell instance type." alt="" coords="5,327,179,352"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="192,337,392,337,392,342,192,342"/>
+<area shape="rect" id="Node000017" href="$structnas__wcdma__info__lte__neighbor__cell__t.html" title="QMI NAS WCDMA Info &#45; LTE Neighbor Cell Info Set type." alt="" coords="798,383,953,423"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="967,403,1020,400,1078,392,1137,378,1192,356,1226,333,1255,306,1295,256,1299,259,1259,310,1229,338,1195,360,1138,383,1079,397,1020,405,967,408"/>
+<area shape="rect" id="Node000018" href="$structnas__umts__lte__nbr__cell__info__t.html" title="QMI NAS UMTS, LTE, NBR cell instance type." alt="" coords="386,383,553,423"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="566,401,798,401,798,406,566,406"/>
+<area shape="rect" id="Node000019" href="$structnas__nr5g__cell__info__t.html" title="QMI NAS NR5G cell instance type." alt="" coords="798,448,953,473"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="967,467,1021,467,1080,461,1138,446,1192,421,1214,404,1234,383,1265,336,1287,291,1299,256,1304,258,1292,293,1270,339,1238,387,1218,408,1195,426,1140,451,1080,466,1021,472,967,473"/>
+</map>

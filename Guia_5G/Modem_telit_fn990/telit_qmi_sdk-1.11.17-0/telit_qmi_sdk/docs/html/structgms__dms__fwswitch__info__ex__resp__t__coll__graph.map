@@ -1,0 +1,5 @@
+<map id="gms_dms_fwswitch_info_ex_resp_t" name="gms_dms_fwswitch_info_ex_resp_t">
+<area shape="rect" id="Node000001" title="output type for QMI_GMS_DMS_FWSWITCH_INFO_EX response" alt="" coords="23,93,204,133"/>
+<area shape="rect" id="Node000002" href="$structgms__dms__fwswitch__info__ex__t.html" title="fwswitch info type" alt="" coords="5,5,221,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,44,116,93,111,93,111,44"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="loc_inject_time_req_t" name="loc_inject_time_req_t">
+<area shape="rect" id="Node000001" title="output type for QMI_LOC_EVENT_INJECT_TIME_REQ_IND" alt="" coords="10,181,171,207"/>
+<area shape="rect" id="Node000002" href="$structloc__time__server__info__t.html" title="QMI LOC time server info type." alt="" coords="5,93,176,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,133,93,181,88,181,88,133"/>
+<area shape="rect" id="Node000003" href="$structloc__server__url__t.html" title="QMI LOC time server info type." alt="" coords="28,5,153,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,45,93,93,88,93,88,45"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="fota_settings_t" name="fota_settings_t">
+<area shape="rect" id="Node000001" title="input type for QMI_FOTA_OEM_FTP_SET_SETTINGS request" alt="" coords="16,93,135,119"/>
+<area shape="rect" id="Node000002" href="$structfota__period__info__t.html" title="QMI FOTA period_info type." alt="" coords="5,5,145,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,45,78,93,73,93,73,45"/>
+</map>

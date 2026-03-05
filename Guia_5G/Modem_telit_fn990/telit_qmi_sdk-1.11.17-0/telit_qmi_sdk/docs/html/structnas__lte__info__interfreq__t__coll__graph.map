@@ -1,0 +1,7 @@
+<map id="nas_lte_info_interfreq_t" name="nas_lte_info_interfreq_t">
+<area shape="rect" id="Node000001" title="QMI NAS LTE inter&#45;frequencies information type." alt="" coords="5,181,181,207"/>
+<area shape="rect" id="Node000002" href="$structnas__inter__freqs__info__t.html" title="QMI NAS inter&#45;frequencies information type." alt="" coords="10,93,177,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,133,96,181,91,181,91,133"/>
+<area shape="rect" id="Node000003" href="$structnas__cell__params__t.html" title="QMI NAS cell parameters type." alt="" coords="22,5,165,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,45,96,93,91,93,91,45"/>
+</map>

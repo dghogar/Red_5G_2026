@@ -1,0 +1,7 @@
+<map id="uim_pin_protection_info_t" name="uim_pin_protection_info_t">
+<area shape="rect" id="Node000001" title="input type for QMI_UIM_SET_PIN_PROTECTION" alt="" coords="137,108,283,148"/>
+<area shape="rect" id="Node000002" href="$structuim__session__information__t.html" title="QMI UIM session information type." alt="" coords="5,13,204,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,47,151,82,181,106,178,110,147,86,117,51"/>
+<area shape="rect" id="Node000003" href="$structuim__set__pin__protection__pin__information__t.html" title="QMI UIM pin information type." alt="" coords="228,5,403,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="306,60,288,86,255,110,252,106,284,82,301,57"/>
+</map>

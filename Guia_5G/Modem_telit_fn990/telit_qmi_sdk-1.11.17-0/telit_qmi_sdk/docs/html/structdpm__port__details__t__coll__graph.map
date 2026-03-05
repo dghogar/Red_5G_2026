@@ -1,0 +1,7 @@
+<map id="dpm_port_details_t" name="dpm_port_details_t">
+<area shape="rect" id="Node000001" title="DPM port details." alt="" coords="127,93,273,119"/>
+<area shape="rect" id="Node000002" href="$structdpm__peripheral__endpoint__t.html" title="DPM peripheral endpoint." alt="" coords="5,5,205,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,42,133,68,150,81,169,91,166,96,147,85,129,71,112,45"/>
+<area shape="rect" id="Node000003" href="$structdpm__pair__type__t.html" title="DPM pair type." alt="" coords="229,5,360,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,45,267,71,249,85,230,96,228,91,246,81,263,67,282,41"/>
+</map>

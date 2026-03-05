@@ -1,0 +1,9 @@
+<map id="gms_nas_endc_ca_info_t" name="gms_nas_endc_ca_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_GMS_NAS_GET_ENDC_CA_INFO response" alt="" coords="191,167,375,192"/>
+<area shape="rect" id="Node000002" href="$structgms__nas__pcc__endc__ca__info__t.html" title="PCC ENDC CA information struct." alt="" coords="5,5,175,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,55,150,98,198,140,246,164,244,169,195,145,147,102,109,58"/>
+<area shape="rect" id="Node000003" href="$structgms__nas__scc__endc__ca__info__t.html" title="SCC ENDC CA information struct." alt="" coords="199,5,367,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,60,286,166,281,166,281,60"/>
+<area shape="rect" id="Node000004" href="$structgms__nas__cc__5g__info__t.html" title="5G CC information struct" alt="" coords="391,13,559,38"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="465,52,432,98,410,123,385,145,360,159,334,169,332,164,358,154,382,140,406,119,428,95,460,49"/>
+</map>

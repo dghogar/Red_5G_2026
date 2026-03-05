@@ -1,0 +1,5 @@
+<map id="wms_set_routes_t" name="wms_set_routes_t">
+<area shape="rect" id="Node000001" title="input type for QMI_WMS_SET_ROUTES" alt="" coords="5,93,145,119"/>
+<area shape="rect" id="Node000002" href="$structwms__route__t.html" title="QMI WMS route type." alt="" coords="22,5,129,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,45,78,93,73,93,73,45"/>
+</map>

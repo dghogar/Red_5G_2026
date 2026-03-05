@@ -1,0 +1,5 @@
+<map id="wds_ind_session_state_t" name="wds_ind_session_state_t">
+<area shape="rect" id="Node000001" title="QMI WDS service session state info type." alt="" coords="5,108,188,133"/>
+<area shape="rect" id="Node000002" href="$structwds__verbose__call__end__reason__t.html" title="QMI WDS verbose call end reason type." alt="" coords="13,5,181,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,59,99,108,94,108,94,59"/>
+</map>

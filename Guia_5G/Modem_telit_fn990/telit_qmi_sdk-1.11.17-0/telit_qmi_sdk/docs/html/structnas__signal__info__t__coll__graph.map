@@ -1,0 +1,11 @@
+<map id="nas_signal_info_t" name="nas_signal_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_NAS_GET_SIG_INFO" alt="" coords="372,80,507,105"/>
+<area shape="rect" id="Node000002" href="$structnas__signal__info__gsm__t.html" title="QMI NAS GSM signal info type." alt="" coords="15,5,185,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,26,273,37,349,54,412,77,410,83,347,59,272,42,199,31"/>
+<area shape="rect" id="Node000003" href="$structnas__signal__info__wcdma__t.html" title="QMI NAS WCDMA signal info type." alt="" coords="5,55,195,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,73,372,85,372,90,208,78"/>
+<area shape="rect" id="Node000004" href="$structnas__signal__info__lte__t.html" title="QMI NAS LTE signal info type." alt="" coords="21,104,179,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,116,269,115,348,109,385,103,385,108,348,114,269,120,193,121"/>
+<area shape="rect" id="Node000005" href="$structnas__signal__info__nr5g__t.html" title="QMI NAS NR5G signal info type." alt="" coords="15,153,185,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="199,161,272,153,347,137,385,121,417,103,420,108,387,126,349,142,273,158,199,166"/>
+</map>

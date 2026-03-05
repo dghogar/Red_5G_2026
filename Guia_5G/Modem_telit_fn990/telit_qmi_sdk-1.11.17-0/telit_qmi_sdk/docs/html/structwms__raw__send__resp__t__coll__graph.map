@@ -1,0 +1,5 @@
+<map id="wms_raw_send_resp_t" name="wms_raw_send_resp_t">
+<area shape="rect" id="Node000001" title="output type for QMI_WMS_RAW_SEND" alt="" coords="5,93,175,119"/>
+<area shape="rect" id="Node000002" href="$structwms__gw__cause__info__t.html" title="QMI WMS gw cause information type." alt="" coords="6,5,174,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,45,93,93,87,93,87,45"/>
+</map>

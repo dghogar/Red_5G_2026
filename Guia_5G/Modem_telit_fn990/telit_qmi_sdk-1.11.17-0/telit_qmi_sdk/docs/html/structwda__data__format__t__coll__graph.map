@@ -1,0 +1,5 @@
+<map id="wda_data_format_t" name="wda_data_format_t">
+<area shape="rect" id="Node000001" title="input type for QMI_WDA_SET_DATA_FORMAT, output for QMI_WDA_GET_DATA_FORMAT" alt="" coords="31,93,179,119"/>
+<area shape="rect" id="Node000002" href="$structwda__peripheral__endpoint__t.html" title="WDA peripheral endpoint." alt="" coords="5,5,204,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,45,107,93,102,93,102,45"/>
+</map>

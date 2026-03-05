@@ -1,0 +1,15 @@
+<map id="loc_delete_assist_data_t" name="loc_delete_assist_data_t">
+<area shape="rect" id="Node000001" title="QMI LOC delete assist data type." alt="" coords="207,181,389,207"/>
+<area shape="rect" id="Node000002" href="$structloc__sv__info__t.html" title="QMI LOC sv info type." alt="" coords="67,93,174,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,122,275,179,273,183,155,127"/>
+<area shape="rect" id="Node000003" href="$structloc__sv__info__instance__t.html" title="QMI LOC sv info instance type." alt="" coords="5,5,175,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,43,119,92,114,94,96,44"/>
+<area shape="rect" id="Node000004" href="$structloc__bds__sv__info__t.html" title="QMI LOC SV Info type." alt="" coords="229,93,367,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="301,133,301,181,295,181,295,133"/>
+<area shape="rect" id="Node000005" href="$structloc__bds__sv__info__instance__t.html" title="QMI LOC SV Info Instance type." alt="" coords="199,5,397,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="301,45,301,93,295,93,295,45"/>
+<area shape="rect" id="Node000006" href="$structloc__gal__sv__info__t.html" title="QMI GAL SV Info type." alt="" coords="425,93,560,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="458,127,386,160,328,184,326,179,384,155,456,122"/>
+<area shape="rect" id="Node000007" href="$structloc__gal__sv__info__instance__t.html" title="QMI LOC GAL SV Info Instance type." alt="" coords="421,5,617,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="514,44,499,94,494,92,509,43"/>
+</map>

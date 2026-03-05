@@ -1,0 +1,5 @@
+<map id="loc_time_server_info_t" name="loc_time_server_info_t">
+<area shape="rect" id="Node000001" title="QMI LOC time server info type." alt="" coords="5,93,176,119"/>
+<area shape="rect" id="Node000002" href="$structloc__server__url__t.html" title="QMI LOC time server info type." alt="" coords="28,5,153,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,45,93,93,88,93,88,45"/>
+</map>

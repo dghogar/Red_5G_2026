@@ -1,0 +1,23 @@
+<map id="nas_system_info_t" name="nas_system_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_NAS_GET_SYS_INFO" alt="" coords="387,341,531,366"/>
+<area shape="rect" id="Node000002" href="$structnas__hdr__service__status__info__t.html" title="QMI NAS HDR service status type." alt="" coords="5,13,180,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,17,237,17,282,24,326,37,364,61,395,92,418,129,435,169,446,211,458,287,460,340,455,340,453,288,441,212,430,171,413,131,390,95,361,65,323,42,281,29,237,23,194,22"/>
+<area shape="rect" id="Node000003" href="$structnas__service__status__info__t.html" title="QMI NAS GSM Service Status Info type." alt="" coords="19,155,166,195"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,178,285,191,332,201,364,214,398,243,424,278,443,312,455,339,450,342,438,315,420,281,394,246,361,218,330,206,285,196,179,183"/>
+<area shape="rect" id="Node000004" href="$structnas__HDR__sys__info__t.html" title="QMI NAS HDR System Info type." alt="" coords="15,219,170,245"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,231,273,243,319,254,364,271,390,286,414,304,448,339,445,343,410,308,387,290,362,276,318,259,272,248,183,236"/>
+<area shape="rect" id="Node000005" href="$structnas__sys__info__gsm__t.html" title="QMI NAS GSM system info type." alt="" coords="16,269,169,294"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="183,286,271,298,363,316,428,338,427,343,362,321,270,303,183,292"/>
+<area shape="rect" id="Node000006" href="$structnas__sys__info__wcdma__t.html" title="QMI NAS WCDMA system info type." alt="" coords="7,318,179,343"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="193,334,387,346,386,352,192,339"/>
+<area shape="rect" id="Node000007" href="$structnas__sys__info__lte__t.html" title="QMI NAS LTE system info type." alt="" coords="21,367,164,393"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="178,376,362,365,386,363,387,368,363,371,178,381"/>
+<area shape="rect" id="Node000008" href="$structnas__sys__info__nr5g__t.html" title="QMI NAS NR5G system info type." alt="" coords="15,417,170,442"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="183,424,271,415,362,396,401,381,435,364,437,368,403,386,363,401,271,420,184,429"/>
+<area shape="rect" id="Node000009" href="$structnas__sys__info__add__t.html" title="QMI NAS additional system info type." alt="" coords="18,469,167,494"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="181,488,225,488,271,484,318,474,361,458,391,438,415,412,448,365,453,368,420,416,394,442,364,462,319,479,272,489,225,493,181,493"/>
+<area shape="rect" id="Node000010" href="$structnas__call__bar__status__t.html" title="QMI NAS Call Barring Status type." alt="" coords="11,558,174,583"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="165,583,212,587,264,586,315,576,339,566,361,554,384,534,403,511,430,457,446,404,453,366,458,367,451,406,435,459,407,514,388,538,364,558,341,571,316,581,264,591,212,592,165,588"/>
+<area shape="rect" id="Node000011" href="$structnas__sys__info__plmn__t.html" title="QMI NAS NR5G system info type." alt="" coords="13,607,172,633"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="155,633,204,639,258,640,313,631,338,621,361,607,388,582,410,551,426,517,438,481,451,414,455,366,460,367,456,414,443,482,431,519,414,554,392,585,364,611,340,626,314,636,259,646,204,645,155,638"/>
+</map>

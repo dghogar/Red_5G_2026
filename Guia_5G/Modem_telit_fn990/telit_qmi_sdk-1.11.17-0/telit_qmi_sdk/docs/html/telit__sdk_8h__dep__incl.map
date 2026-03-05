@@ -1,0 +1,96 @@
+<map id="sdk_docs/telit_sdk.h" name="sdk_docs/telit_sdk.h">
+<area shape="rect" id="Node000001" title="SDK core functions." alt="" coords="1741,5,1895,31"/>
+<area shape="rect" id="Node000002" href="$telit__sdk__atr_8h.html" title="ATR pack/unpack functions Service ID: QMI_SVC_ATR (237)" alt="" coords="5,79,148,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1727,23,949,40,498,57,310,68,168,81,149,84,148,79,167,76,310,63,498,52,949,35,1727,18"/>
+<area shape="rect" id="Node000003" href="$tqcm__atr_8h.html" title="Telit ATR requests." alt="" coords="109,174,263,199"/>
+<area shape="poly" id="edge48_Node000001_Node000003" title=" " alt="" coords="1727,22,1358,25,867,34,629,42,426,52,280,65,235,73,213,81,197,101,189,127,187,174,182,174,184,126,193,99,210,77,234,67,279,60,426,47,629,37,867,29,1358,20,1727,17"/>
+<area shape="rect" id="Node000004" href="$telit__sdk__cat_8h.html" title="CAT pack/unpack functions Service ID: QMI_SVC_CAT (10)" alt="" coords="224,79,367,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1727,24,1052,43,668,60,508,70,386,81,367,84,367,79,386,76,507,65,667,54,1052,37,1727,19"/>
+<area shape="rect" id="Node000005" href="$tqcm__cat_8h.html" title="Telit CAT requests." alt="" coords="325,174,484,199"/>
+<area shape="poly" id="edge49_Node000001_Node000005" title=" " alt="" coords="1727,23,1405,28,985,38,612,55,488,67,450,74,432,81,416,102,408,127,406,174,401,174,403,126,411,99,428,77,449,69,487,62,611,50,985,33,1405,22,1727,18"/>
+<area shape="rect" id="Node000006" href="$telit__sdk__ctl_8h.html" title="CTL pack/unpack functions Service ID: QMI_SVC_CONTROL (0)" alt="" coords="443,79,585,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1727,21,1523,22,1243,29,922,48,758,62,597,81,586,83,585,78,596,76,757,57,921,42,1243,24,1523,17,1727,16"/>
+<area shape="rect" id="Node000007" href="$telit__sdk__dms_8h.html" title="DMS pack/unpack functions Service ID: QMI_SVC_DMS (2)" alt="" coords="609,79,752,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1726,23,1550,26,1312,36,1043,53,772,81,753,84,752,79,771,76,1043,48,1312,30,1549,21,1726,17"/>
+<area shape="rect" id="Node000008" href="$tqcm__dms_8h.html" title="DMS requests." alt="" coords="707,174,873,199"/>
+<area shape="poly" id="edge50_Node000001_Node000008" title=" " alt="" coords="1727,21,1496,22,1209,29,1073,37,954,47,865,62,835,71,817,81,801,102,793,127,791,174,786,174,788,126,797,99,814,77,833,66,864,57,954,42,1072,31,1209,24,1495,17,1727,16"/>
+<area shape="rect" id="Node000009" href="$telit__sdk__dpm_8h.html" title="DPM pack/unpack functions Service ID: QMI_SVC_DPM (47)" alt="" coords="828,79,971,119"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1727,25,1401,41,1196,58,990,81,971,84,971,79,990,76,1196,52,1401,36,1727,19"/>
+<area shape="rect" id="Node000010" href="$tqcm__dpm_8h.html" title="DPM requests." alt="" coords="925,174,1092,199"/>
+<area shape="poly" id="edge51_Node000001_Node000010" title=" " alt="" coords="1727,23,1544,27,1327,37,1137,54,1071,66,1036,81,1020,102,1012,127,1010,174,1005,174,1007,126,1015,99,1032,77,1070,61,1136,49,1326,31,1544,22,1727,18"/>
+<area shape="rect" id="Node000011" href="$telit__sdk__fota_8h.html" title="FOTA pack/unpack functions Service ID: QMI_SVC_FOTA (230)" alt="" coords="1047,79,1189,119"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1727,28,1492,47,1350,62,1209,81,1190,84,1189,79,1208,76,1350,57,1491,42,1727,23"/>
+<area shape="rect" id="Node000012" href="$tqcm__fota_8h.html" title="Telit FOTA requests." alt="" coords="1145,174,1309,199"/>
+<area shape="poly" id="edge52_Node000001_Node000012" title=" " alt="" coords="1727,26,1594,33,1446,45,1321,61,1278,70,1254,81,1239,102,1231,128,1229,174,1224,174,1226,127,1234,100,1251,77,1276,65,1320,55,1446,40,1594,28,1726,21"/>
+<area shape="rect" id="Node000013" href="$telit__sdk__gas_8h.html" title="GAS pack/unpack functions Service ID: QMI_SVC_GAS (232)" alt="" coords="1265,79,1408,119"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1727,34,1428,81,1409,85,1408,80,1427,76,1727,29"/>
+<area shape="rect" id="Node000014" href="$tqcm__gas_8h.html" title="Telit GAS requests." alt="" coords="1353,174,1515,199"/>
+<area shape="poly" id="edge53_Node000001_Node000014" title=" " alt="" coords="1727,32,1603,52,1549,65,1511,81,1486,102,1466,128,1441,175,1436,173,1462,125,1483,99,1509,76,1547,60,1602,47,1726,27"/>
+<area shape="rect" id="Node000015" href="$telit__sdk__gms_8h.html" title="GMS pack/unpack functions Service ID: QMI_SVC_GMS (231)" alt="" coords="2149,167,2292,207"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1910,30,1986,48,2063,76,2091,95,2116,117,2190,164,2187,169,2112,121,2087,99,2061,81,1985,53,1909,35"/>
+<area shape="rect" id="Node000016" href="$tqcm__gms_8h.html" title="GMS requests." alt="" coords="2137,255,2304,280"/>
+<area shape="poly" id="edge54_Node000001_Node000016" title=" " alt="" coords="1909,16,2102,19,2332,27,2440,34,2533,45,2602,58,2625,67,2640,77,2647,88,2650,104,2651,142,2642,181,2627,208,2604,224,2572,236,2488,254,2392,263,2304,268,2304,262,2392,258,2487,248,2570,231,2601,219,2623,205,2637,179,2645,141,2645,105,2642,90,2636,80,2623,72,2600,64,2532,50,2439,40,2331,32,2102,24,1909,22"/>
+<area shape="rect" id="Node000017" href="$telit__sdk__loc_8h.html" title="LOC pack/unpack functions Service ID: QMI_SVC_LOC (16)" alt="" coords="1535,79,1677,119"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1775,38,1658,81,1656,76,1773,33"/>
+<area shape="rect" id="Node000018" href="$tqcm__loc_8h.html" title="LOC requests." alt="" coords="1539,174,1697,199"/>
+<area shape="poly" id="edge55_Node000001_Node000018" title=" " alt="" coords="1727,28,1666,35,1606,45,1555,61,1536,70,1524,80,1518,93,1518,105,1524,118,1535,131,1564,154,1595,172,1592,176,1561,158,1531,134,1520,121,1513,107,1513,92,1520,77,1534,65,1553,56,1605,40,1666,29,1727,23"/>
+<area shape="rect" id="Node000019" href="$telit__sdk__nas_8h.html" title="NAS pack/unpack functions Service ID: QMI_SVC_NAS (3)" alt="" coords="1908,79,2051,119"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="1855,34,1941,76,1939,81,1852,39"/>
+<area shape="rect" id="Node000020" href="$tqcm__nas_8h.html" title="NAS requests." alt="" coords="1805,174,1967,199"/>
+<area shape="poly" id="edge56_Node000001_Node000020" title=" " alt="" coords="1832,42,1847,78,1884,172,1879,174,1842,80,1827,44"/>
+<area shape="rect" id="Node000021" href="$telit__sdk__qos_8h.html" title="QOS pack/unpack functions Service ID: QMI_SVC_QOS (4)" alt="" coords="2127,79,2269,119"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="1887,31,2108,76,2127,80,2126,85,2107,81,1886,36"/>
+<area shape="rect" id="Node000022" href="$telit__sdk__tmd_8h.html" title="TMD pack/unpack functions Service ID: QMI_SVC_TMD (24 &#45; 0x0018)" alt="" coords="2293,79,2436,119"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="1909,26,2082,46,2281,76,2294,78,2293,84,2280,81,2081,52,1909,31"/>
+<area shape="rect" id="Node000023" href="$telit__sdk__uim_8h.html" title="UIM pack/unpack functions Service ID: QMI_SVC_UIM (11)" alt="" coords="2729,79,2872,119"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="1910,19,2262,34,2485,51,2710,76,2729,79,2729,84,2710,81,2485,56,2261,40,1909,24"/>
+<area shape="rect" id="Node000024" href="$tqcm__uim_8h.html" title="UIM requests." alt="" coords="2729,174,2891,199"/>
+<area shape="poly" id="edge57_Node000001_Node000024" title=" " alt="" coords="1909,18,2163,25,2478,36,2753,53,2843,64,2871,70,2885,77,2893,90,2894,104,2880,132,2855,157,2830,176,2826,172,2852,153,2876,129,2889,103,2888,92,2882,81,2869,75,2842,69,2752,58,2478,41,2163,30,1909,24"/>
+<area shape="rect" id="Node000025" href="$telit__sdk__voice_8h.html" title="VOICE pack/unpack functions Service ID: QMI_SVC_VOICE (9 &#45; 0x0009)" alt="" coords="2948,79,3091,119"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="1909,17,2096,20,2349,29,2638,47,2929,76,2948,79,2947,84,2928,81,2637,52,2349,34,2096,25,1909,22"/>
+<area shape="rect" id="Node000026" href="$tqcm__voice_8h.html" title="VOICE requests." alt="" coords="2933,174,3106,199"/>
+<area shape="poly" id="edge58_Node000001_Node000026" title=" " alt="" coords="1909,17,2210,22,2598,32,2939,49,3051,61,3086,68,3104,77,3112,90,3112,105,3107,119,3097,132,3069,157,3041,176,3038,172,3066,153,3093,129,3102,116,3107,104,3107,92,3100,81,3084,73,3050,67,2938,54,2597,37,2210,27,1909,23"/>
+<area shape="rect" id="Node000027" href="$telit__sdk__wda_8h.html" title="WDA pack/unpack functions Service ID: QMI_SVC_WDA (26)" alt="" coords="3167,79,3309,119"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="1909,16,2129,17,2436,24,2789,42,2970,57,3148,76,3167,79,3166,84,3147,81,2970,62,2789,47,2436,29,2129,22,1909,21"/>
+<area shape="rect" id="Node000028" href="$tqcm__wda_8h.html" title="WDA requests." alt="" coords="3155,174,3321,199"/>
+<area shape="poly" id="edge59_Node000001_Node000028" title=" " alt="" coords="1910,17,2258,19,2716,28,2937,35,3125,45,3259,59,3301,67,3322,77,3331,90,3331,105,3326,119,3315,132,3288,157,3260,176,3257,172,3285,153,3312,129,3321,116,3326,104,3326,92,3319,81,3299,72,3259,64,3124,51,2937,40,2716,33,2258,25,1910,22"/>
+<area shape="rect" id="Node000029" href="$telit__sdk__wds_8h.html" title="WDS pack/unpack functions Service ID: QMI_SVC_WDS (1)" alt="" coords="2460,79,2603,119"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="1909,22,2153,40,2300,56,2448,76,2460,78,2460,83,2447,81,2300,61,2152,46,1909,27"/>
+<area shape="rect" id="Node000030" href="$tqcm__wds_8h.html" title="WDS requests." alt="" coords="2449,174,2613,199"/>
+<area shape="poly" id="edge60_Node000001_Node000030" title=" " alt="" coords="1909,17,2097,19,2319,28,2423,35,2512,45,2579,59,2602,67,2616,77,2624,91,2624,105,2619,119,2608,133,2581,157,2553,176,2550,172,2578,153,2605,129,2614,116,2619,104,2619,92,2612,80,2599,72,2578,64,2512,51,2423,40,2318,33,2097,25,1909,22"/>
+<area shape="rect" id="Node000031" href="$telit__sdk__wms_8h.html" title="WMS pack/unpack functions Service ID: QMI_SVC_WMS (5)" alt="" coords="3385,79,3528,119"/>
+<area shape="poly" id="edge31_Node000001_Node000031" title=" " alt="" coords="1909,18,2639,36,3059,53,3234,64,3366,76,3385,79,3385,84,3366,81,3233,69,3059,58,2639,41,1909,24"/>
+<area shape="rect" id="Node000032" href="$tqcm__wms_8h.html" title="WMS requests." alt="" coords="3372,174,3541,199"/>
+<area shape="poly" id="edge61_Node000001_Node000032" title=" " alt="" coords="1909,16,2303,17,2833,24,3090,31,3310,42,3468,56,3516,66,3541,77,3549,90,3550,105,3544,119,3534,132,3507,157,3479,176,3476,172,3504,153,3530,129,3540,116,3545,104,3544,92,3538,81,3515,71,3467,62,3309,47,3090,36,2833,29,2303,22,1909,22"/>
+<area shape="rect" id="Node000033" href="$tqcm_8h.html" title="TQCM Public API." alt="" coords="1702,86,1833,111"/>
+<area shape="poly" id="edge33_Node000001_Node000033" title=" " alt="" coords="1805,44,1777,87,1773,84,1801,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,125,173,171,169,176,110,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="332,125,391,171,388,176,329,129"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="717,125,777,171,773,176,714,129"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="936,125,995,171,992,176,933,129"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1155,125,1214,171,1211,176,1151,129"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1370,126,1422,172,1419,176,1367,130"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="2223,220,2223,254,2218,254,2218,220"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="1613,132,1619,173,1614,174,1608,133"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="1950,130,1901,176,1897,172,1947,126"/>
+<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="2807,132,2811,173,2806,174,2802,133"/>
+<area shape="poly" id="edge25_Node000025_Node000026" title=" " alt="" coords="3022,133,3022,174,3017,174,3017,133"/>
+<area shape="poly" id="edge27_Node000027_Node000028" title=" " alt="" coords="3241,133,3241,174,3235,174,3235,133"/>
+<area shape="poly" id="edge29_Node000029_Node000015" title=" " alt="" coords="2451,125,2289,169,2288,164,2449,120"/>
+<area shape="poly" id="edge30_Node000029_Node000030" title=" " alt="" coords="2534,133,2534,174,2529,174,2529,133"/>
+<area shape="poly" id="edge32_Node000031_Node000032" title=" " alt="" coords="3459,133,3459,174,3454,174,3454,133"/>
+<area shape="poly" id="edge34_Node000033_Node000003" title=" " alt="" coords="1713,117,1689,121,1481,145,1304,156,1147,158,1002,155,699,150,522,155,313,169,254,177,253,171,312,164,522,149,699,145,1002,150,1147,152,1303,150,1480,139,1688,116,1713,112"/>
+<area shape="poly" id="edge35_Node000033_Node000005" title=" " alt="" coords="1713,117,1689,121,1539,140,1411,151,1193,159,974,160,694,169,485,182,484,177,694,164,974,155,1193,154,1410,146,1538,135,1688,116,1712,112"/>
+<area shape="poly" id="edge36_Node000033_Node000008" title=" " alt="" coords="1712,117,1689,121,1572,136,1472,145,1301,151,1131,153,1031,159,913,169,858,177,857,171,912,164,1030,153,1131,148,1301,145,1471,140,1571,131,1688,116,1711,112"/>
+<area shape="poly" id="edge37_Node000033_Node000010" title=" " alt="" coords="1712,117,1689,121,1533,141,1411,149,1289,155,1133,169,1079,177,1078,171,1132,164,1289,150,1411,144,1533,136,1688,116,1711,112"/>
+<area shape="poly" id="edge38_Node000033_Node000012" title=" " alt="" coords="1710,117,1689,121,1592,138,1515,147,1341,169,1295,177,1294,171,1340,164,1515,142,1591,132,1688,116,1709,112"/>
+<area shape="poly" id="edge39_Node000033_Node000014" title=" " alt="" coords="1710,117,1479,177,1478,171,1709,112"/>
+<area shape="poly" id="edge40_Node000033_Node000016" title=" " alt="" coords="1768,125,1773,167,1781,187,1794,205,1818,219,1852,232,1942,249,2044,259,2137,263,2137,268,2044,264,1942,254,1851,237,1816,224,1791,209,1777,190,1768,168,1763,125"/>
+<area shape="poly" id="edge41_Node000033_Node000018" title=" " alt="" coords="1737,121,1640,176,1637,171,1734,116"/>
+<area shape="poly" id="edge42_Node000033_Node000020" title=" " alt="" coords="1796,117,1871,172,1868,176,1793,122"/>
+<area shape="poly" id="edge43_Node000033_Node000024" title=" " alt="" coords="1847,110,1896,116,2100,134,2260,143,2420,150,2625,164,2729,174,2728,179,2624,169,2419,155,2260,148,2100,139,1895,121,1846,115"/>
+<area shape="poly" id="edge44_Node000033_Node000026" title=" " alt="" coords="1847,110,1896,116,2049,129,2179,135,2400,139,2621,143,2750,150,2904,164,2957,171,2957,177,2903,169,2750,156,2620,148,2399,144,2178,140,2048,134,1895,121,1846,115"/>
+<area shape="poly" id="edge45_Node000033_Node000028" title=" " alt="" coords="1847,110,1896,116,2081,130,2239,137,2507,139,2775,141,2932,149,3118,164,3174,171,3174,177,3118,169,2932,154,2775,147,2507,144,2239,143,2081,136,1895,121,1846,115"/>
+<area shape="poly" id="edge46_Node000033_Node000030" title=" " alt="" coords="1847,109,1896,116,2201,151,2449,175,2449,180,2201,156,1895,121,1846,115"/>
+<area shape="poly" id="edge47_Node000033_Node000032" title=" " alt="" coords="1847,110,1896,116,2114,132,2299,139,2614,139,2929,140,3114,148,3333,164,3391,171,3390,177,3332,169,3114,153,2929,145,2614,145,2299,145,2114,137,1895,121,1846,116"/>
+</map>

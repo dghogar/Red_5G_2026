@@ -1,0 +1,5 @@
+<map id="cat_cached_proactive_cmd_info_t" name="cat_cached_proactive_cmd_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_CAT_GET_CACHED_PROACTIVE_CMD" alt="" coords="7,167,169,207"/>
+<area shape="rect" id="Node000002" href="$structcat__generic__proactive__command__t.html" title="generic proactive command type" alt="" coords="5,5,171,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,59,91,167,85,167,85,59"/>
+</map>

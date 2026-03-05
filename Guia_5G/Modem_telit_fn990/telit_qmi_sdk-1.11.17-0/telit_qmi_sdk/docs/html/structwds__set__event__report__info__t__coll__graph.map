@@ -1,0 +1,5 @@
+<map id="wds_set_event_report_info_t" name="wds_set_event_report_info_t">
+<area shape="rect" id="Node000001" title="input type for QMI_WDS_SET_EVENT_REPORT" alt="" coords="5,108,171,148"/>
+<area shape="rect" id="Node000002" href="$structwds__set__event__report__transfer__stats__t.html" title="QMI WDS transfer statistic indicator type." alt="" coords="5,5,171,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,59,91,108,85,108,85,59"/>
+</map>

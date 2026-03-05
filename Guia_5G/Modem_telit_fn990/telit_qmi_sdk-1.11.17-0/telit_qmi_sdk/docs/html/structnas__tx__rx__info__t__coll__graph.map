@@ -1,0 +1,7 @@
+<map id="nas_tx_rx_info_t" name="nas_tx_rx_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_NAS_GET_TX_RX_INFO" alt="" coords="93,108,223,133"/>
+<area shape="rect" id="Node000002" href="$structnas__rx__chain__info__t.html" title="QMI NAS Rx chain info type." alt="" coords="5,5,156,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,44,92,64,101,82,115,95,131,106,128,110,112,100,97,86,87,66,81,45"/>
+<area shape="rect" id="Node000003" href="$structnas__tx__info__t.html" title="QMI NAS Tx info type." alt="" coords="181,5,290,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,45,221,65,208,86,180,110,176,106,204,82,216,63,225,42"/>
+</map>

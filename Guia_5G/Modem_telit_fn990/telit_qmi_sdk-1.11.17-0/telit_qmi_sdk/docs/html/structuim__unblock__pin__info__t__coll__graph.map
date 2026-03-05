@@ -1,0 +1,7 @@
+<map id="uim_unblock_pin_info_t" name="uim_unblock_pin_info_t">
+<area shape="rect" id="Node000001" title="input type for QMI_UIM_UNBLOCK_PIN" alt="" coords="118,108,294,133"/>
+<area shape="rect" id="Node000002" href="$structuim__session__information__t.html" title="QMI UIM session information type." alt="" coords="5,13,204,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,49,142,82,179,106,176,110,139,86,114,52"/>
+<area shape="rect" id="Node000003" href="$structuim__unblock__pin__pin__information__t.html" title="QMI UIM unblock pin information type." alt="" coords="228,5,387,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="298,60,280,86,261,100,241,110,239,106,258,96,276,82,293,57"/>
+</map>

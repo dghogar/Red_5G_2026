@@ -1,0 +1,7 @@
+<map id="wds_ind_apn_change_t" name="wds_ind_apn_change_t">
+<area shape="rect" id="Node000001" title="QMI WDS APN info change type." alt="" coords="91,108,263,133"/>
+<area shape="rect" id="Node000002" href="$structwds__ind__apn__string__info__t.html" title="QMI WDS APN string change type." alt="" coords="5,5,156,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,53,141,82,166,106,162,110,137,86,108,57"/>
+<area shape="rect" id="Node000003" href="$structwds__ind__pdp__type__info__t.html" title="QMI WDS APN string change type." alt="" coords="181,13,367,38"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,52,259,69,247,86,229,100,209,110,207,106,226,95,243,82,255,67,263,49"/>
+</map>

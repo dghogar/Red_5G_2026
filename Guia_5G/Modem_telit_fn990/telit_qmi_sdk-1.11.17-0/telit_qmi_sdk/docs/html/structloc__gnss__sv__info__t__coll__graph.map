@@ -1,0 +1,5 @@
+<map id="loc_gnss_sv_info_t" name="loc_gnss_sv_info_t">
+<area shape="rect" id="Node000001" title="QMI LOC GNSS SV info type." alt="" coords="5,108,149,133"/>
+<area shape="rect" id="Node000002" href="$structloc__sv__t.html" title="QMI LOC satellite info type." alt="" coords="40,5,115,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,45,80,108,75,108,75,45"/>
+</map>

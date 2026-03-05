@@ -1,0 +1,5 @@
+<map id="tmd_mitigation_device_list_t" name="tmd_mitigation_device_list_t">
+<area shape="rect" id="Node000001" title="output type for QMI_TMD_GET_MITIGATION_DEVICE_LIST request" alt="" coords="11,93,183,133"/>
+<area shape="rect" id="Node000002" href="$structtmd__mitigation__device__t.html" title="input type for QMI_TMD_GET_MITIGATION_LEVEL request" alt="" coords="5,5,189,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,44,100,93,95,93,95,44"/>
+</map>

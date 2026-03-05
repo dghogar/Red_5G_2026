@@ -1,0 +1,5 @@
+<map id="nas_lte_gsm_cell_info_t" name="nas_lte_gsm_cell_info_t">
+<area shape="rect" id="Node000001" title="QMI NAS LTE, GSM cell instance type." alt="" coords="5,93,184,119"/>
+<area shape="rect" id="Node000002" href="$structnas__gsm__cell__info__t.html" title="QMI NAS GSM cell instance type." alt="" coords="17,5,172,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,45,97,93,92,93,92,45"/>
+</map>

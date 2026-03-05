@@ -1,0 +1,5 @@
+<map id="uim_change_provisioning_session_t" name="uim_change_provisioning_session_t">
+<area shape="rect" id="Node000001" title="QMI UIM change provisioning session type." alt="" coords="5,93,193,133"/>
+<area shape="rect" id="Node000002" href="$structuim__application__info__t.html" title="QMI UIM application information type." alt="" coords="14,5,185,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,44,102,93,97,93,97,44"/>
+</map>

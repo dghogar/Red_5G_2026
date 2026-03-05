@@ -1,0 +1,9 @@
+<map id="voice_set_sup_service_input_t" name="voice_set_sup_service_input_t">
+<area shape="rect" id="Node000001" title="input type for QMI_VOICE_SET_SUPS_SERVICE request" alt="" coords="389,69,557,109"/>
+<area shape="rect" id="Node000002" href="$structvoice__call__num__type__and__plan__t.html" title="QMI VOICE number type and plan type." alt="" coords="8,5,167,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,37,366,67,389,71,388,76,365,72,180,42"/>
+<area shape="rect" id="Node000003" href="$structvoice__call__barring__number__t.html" title="QMI VOICE call barring number type." alt="" coords="17,69,157,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,87,389,87,389,92,171,92"/>
+<area shape="rect" id="Node000004" href="$structvoice__call__forwarding__time__t.html" title="QMI VOICE voice call forwarding time type." alt="" coords="5,159,169,199"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,178,272,171,319,163,364,151,408,131,445,107,447,112,410,136,366,156,320,168,273,176,184,183"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="nas_geran_info_t" name="nas_geran_info_t">
+<area shape="rect" id="Node000001" title="QMI NAS set of GERAN cells type." alt="" coords="15,93,148,119"/>
+<area shape="rect" id="Node000002" href="$structnas__nmr__cell__info__t.html" title="QMI NAS NMR cell parameters type." alt="" coords="5,5,157,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,45,84,93,79,93,79,45"/>
+</map>

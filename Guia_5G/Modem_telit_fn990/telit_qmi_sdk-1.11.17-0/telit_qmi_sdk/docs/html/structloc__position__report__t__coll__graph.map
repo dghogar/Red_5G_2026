@@ -1,0 +1,9 @@
+<map id="loc_position_report_t" name="loc_position_report_t">
+<area shape="rect" id="Node000001" title="QMI LOC position report type." alt="" coords="189,93,347,119"/>
+<area shape="rect" id="Node000002" href="$structloc__precision__diluition__t.html" title="QMI LOC diluition of precision type." alt="" coords="5,5,184,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,40,140,67,168,81,198,91,197,96,166,86,137,72,108,44"/>
+<area shape="rect" id="Node000003" href="$structloc__gps__time__t.html" title="QMI LOC GPS time type." alt="" coords="208,5,328,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="271,45,271,93,265,93,265,45"/>
+<area shape="rect" id="Node000004" href="$structloc__sensor__data__usage__t.html" title="QMI LOC sensor data usage type." alt="" coords="353,5,538,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="411,39,293,95,291,91,408,34"/>
+</map>

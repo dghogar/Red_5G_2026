@@ -1,0 +1,5 @@
+<map id="gms_nas_lte_cqi_info_t" name="gms_nas_lte_cqi_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_GMS_NAS_GET_LTECQI_INFO request" alt="" coords="5,167,180,192"/>
+<area shape="rect" id="Node000002" href="$structgms__nas__cqi__info__t.html" title="GMS CQI Information type." alt="" coords="17,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,166,90,166,90,44"/>
+</map>

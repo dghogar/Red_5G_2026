@@ -1,0 +1,5 @@
+<map id="wds_data_system_status_t" name="wds_data_system_status_t">
+<area shape="rect" id="Node000001" title="QMI WDS data system status type." alt="" coords="5,93,204,119"/>
+<area shape="rect" id="Node000002" href="$structwds__network__info__t.html" title="QMI WDS network info type." alt="" coords="29,5,181,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,45,107,93,102,93,102,45"/>
+</map>

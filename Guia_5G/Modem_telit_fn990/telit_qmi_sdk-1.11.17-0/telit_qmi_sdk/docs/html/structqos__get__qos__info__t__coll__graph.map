@@ -1,0 +1,17 @@
+<map id="qos_get_qos_info_t" name="qos_get_qos_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_QOS_GET_QOS_INFO" alt="" coords="697,97,844,122"/>
+<area shape="rect" id="Node000002" href="$structqos__granted__flow__t.html" title="QMI QOS granted flow specification type." alt="" coords="355,66,503,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="517,84,697,100,697,105,517,89"/>
+<area shape="rect" id="Node000003" href="$structqos__info__filter__spec__t.html" title="QMI QOS granted flow specification type." alt="" coords="348,126,511,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="525,142,598,141,673,135,734,120,735,125,674,140,598,147,525,147"/>
+<area shape="rect" id="Node000004" href="$structqos__ipv4__addr__t.html" title="QMI QOS IPv4 address type." alt="" coords="30,17,158,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="172,27,249,38,289,50,325,68,334,76,339,85,350,101,391,124,388,128,346,105,334,87,330,80,323,73,287,55,248,43,172,32"/>
+<area shape="rect" id="Node000005" href="$structqos__ipv4__tos__t.html" title="QMI QOS type of service type." alt="" coords="35,66,153,91"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="167,82,243,91,325,105,391,123,390,129,323,111,243,97,167,88"/>
+<area shape="rect" id="Node000006" href="$structqos__ipv6__addr__t.html" title="QMI QOS IPv6 address with prefix length type." alt="" coords="30,125,158,150"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="172,135,348,136,348,141,172,140"/>
+<area shape="rect" id="Node000007" href="$structqos__ipv6__traffic__class__t.html" title="QMI QOS traffic classes." alt="" coords="5,174,183,199"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="196,173,324,156,365,149,366,154,324,161,197,178"/>
+<area shape="rect" id="Node000008" href="$structqos__port__info__t.html" title="QMI QOS TCP port info type." alt="" coords="33,262,155,287"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="169,272,245,262,285,251,323,236,353,217,379,194,417,150,421,153,383,197,356,221,325,241,287,256,246,267,169,277"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="wds_start_network_resp_t" name="wds_start_network_resp_t">
+<area shape="rect" id="Node000001" title="output type for QMI_WDS_START_NETWORK_INTERFACE" alt="" coords="5,108,197,133"/>
+<area shape="rect" id="Node000002" href="$structwds__verbose__call__end__reason__t.html" title="QMI WDS verbose call end reason type." alt="" coords="17,5,185,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,59,104,108,99,108,99,59"/>
+</map>

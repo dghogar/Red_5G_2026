@@ -1,0 +1,26 @@
+<map id="sdk_docs/tqcm_gms.h" name="sdk_docs/tqcm_gms.h">
+<area shape="rect" id="Node000001" title="GMS requests." alt="" coords="90,5,257,31"/>
+<area shape="rect" id="Node000002" href="$telit__sdk_8h.html" title="SDK core functions." alt="" coords="152,225,243,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,33,123,52,111,65,101,80,99,91,101,104,106,142,111,158,121,176,141,198,165,216,162,220,138,202,117,179,106,160,101,143,96,104,94,91,96,78,107,62,120,48,148,29"/>
+<area shape="rect" id="Node000007" href="$telit__sdk__gms_8h.html" title="GMS pack/unpack functions Service ID: QMI_SVC_GMS (231)" alt="" coords="111,79,236,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="176,31,176,65,171,65,171,31"/>
+<area shape="rect" id="Node000010" href="$tqcm_8h.html" title="TQCM Public API." alt="" coords="359,79,425,104"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="209,28,346,72,344,77,208,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,299,88,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,253,85,295,83,290,172,248"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="112,299,187,324"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,253,167,289,162,286,187,250"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,299,282,324"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="208,249,233,286,229,289,203,253"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="306,299,382,324"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="222,248,309,290,307,295,220,253"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="161,106,147,121,134,138,127,157,129,176,145,198,165,216,162,220,141,202,124,178,121,157,129,136,142,117,157,103"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="139,152,207,177"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="176,104,176,138,171,138,171,104"/>
+<area shape="rect" id="Node000009" href="$telit__sdk__wds_8h.html" title="WDS pack/unpack functions Service ID: QMI_SVC_WDS (1)" alt="" coords="232,152,355,177"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="194,102,263,142,260,147,191,106"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="279,180,226,219,223,215,276,175"/>
+<area shape="poly" id="edge13_Node000010_Node000002" title=" " alt="" coords="394,105,389,140,381,161,369,179,344,199,315,215,257,232,256,227,313,210,341,195,365,176,376,159,384,139,389,104"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="429,152,536,177"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="408,102,459,141,455,145,405,106"/>
+</map>

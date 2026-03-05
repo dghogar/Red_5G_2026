@@ -1,0 +1,9 @@
+<map id="gas_stored_fw_info_t" name="gas_stored_fw_info_t">
+<area shape="rect" id="Node000001" title="QMI GAS stored firmware info type." alt="" coords="179,93,337,119"/>
+<area shape="rect" id="Node000002" href="$structgas__carrier__name__t.html" title="QMI GAS carrier name type." alt="" coords="5,5,156,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,36,163,67,223,91,221,96,161,72,107,40"/>
+<area shape="rect" id="Node000003" href="$structgas__dms__versions__t.html" title="QMI GAS version type." alt="" coords="181,5,335,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="261,45,261,93,255,93,255,45"/>
+<area shape="rect" id="Node000004" href="$structgas__pri__rev__t.html" title="QMI GAS PRI revision type." alt="" coords="359,5,469,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="382,40,280,95,278,91,380,35"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="uim_change_pin_info_t" name="uim_change_pin_info_t">
+<area shape="rect" id="Node000001" title="input type for QMI_UIM_CHANGE_PIN" alt="" coords="119,108,291,133"/>
+<area shape="rect" id="Node000002" href="$structuim__session__information__t.html" title="QMI UIM session information type." alt="" coords="5,13,204,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,49,127,66,140,82,157,95,176,106,174,110,154,100,136,86,123,69,112,52"/>
+<area shape="rect" id="Node000003" href="$structuim__change__pin__pin__information__t.html" title="QMI UIM change pin information type." alt="" coords="227,5,382,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="295,60,277,86,259,100,239,110,237,105,256,95,273,82,291,57"/>
+</map>

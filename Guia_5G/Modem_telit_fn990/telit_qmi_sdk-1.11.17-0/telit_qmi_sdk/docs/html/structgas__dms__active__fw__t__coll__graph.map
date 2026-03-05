@@ -1,0 +1,7 @@
+<map id="gas_dms_active_fw_t" name="gas_dms_active_fw_t">
+<area shape="rect" id="Node000001" title="input type for QMI_GAS_DMS_ACTIVE_FW request" alt="" coords="88,93,249,119"/>
+<area shape="rect" id="Node000002" href="$structgas__carrier__name__t.html" title="QMI GAS carrier name type." alt="" coords="5,5,156,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,38,158,91,155,95,100,42"/>
+<area shape="rect" id="Node000003" href="$structgas__dms__versions__t.html" title="QMI GAS version type." alt="" coords="181,5,335,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,44,228,71,194,95,191,91,224,67,244,41"/>
+</map>

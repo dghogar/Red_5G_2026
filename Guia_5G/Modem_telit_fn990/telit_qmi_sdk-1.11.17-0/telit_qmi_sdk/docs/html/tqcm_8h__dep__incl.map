@@ -1,0 +1,31 @@
+<map id="sdk_docs/tqcm.h" name="sdk_docs/tqcm.h">
+<area shape="rect" id="Node000001" title="TQCM Public API." alt="" coords="1233,5,1364,31"/>
+<area shape="rect" id="Node000002" href="$tqcm__atr_8h.html" title="Telit ATR requests." alt="" coords="5,79,160,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1219,24,774,42,475,58,172,81,160,82,160,77,172,76,475,53,774,36,1219,19"/>
+<area shape="rect" id="Node000003" href="$tqcm__cat_8h.html" title="Telit CAT requests." alt="" coords="185,79,343,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1220,25,847,45,602,61,355,81,344,82,343,77,354,76,602,56,846,39,1220,20"/>
+<area shape="rect" id="Node000004" href="$tqcm__dms_8h.html" title="DMS requests." alt="" coords="367,79,534,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1220,27,923,49,546,81,535,82,534,77,545,76,923,43,1219,22"/>
+<area shape="rect" id="Node000005" href="$tqcm__dpm_8h.html" title="DPM requests." alt="" coords="558,79,725,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1220,30,736,81,725,83,725,77,736,76,1219,25"/>
+<area shape="rect" id="Node000006" href="$tqcm__fota_8h.html" title="Telit FOTA requests." alt="" coords="749,79,913,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1220,34,906,81,905,76,1219,29"/>
+<area shape="rect" id="Node000007" href="$tqcm__gas_8h.html" title="Telit GAS requests." alt="" coords="937,79,1098,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1241,37,1064,81,1062,76,1240,31"/>
+<area shape="rect" id="Node000008" href="$tqcm__gms_8h.html" title="GMS requests." alt="" coords="1122,79,1289,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1275,41,1222,81,1219,76,1271,37"/>
+<area shape="rect" id="Node000009" href="$tqcm__loc_8h.html" title="LOC requests." alt="" coords="1313,79,1471,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1326,37,1378,76,1375,81,1323,41"/>
+<area shape="rect" id="Node000010" href="$tqcm__nas_8h.html" title="NAS requests." alt="" coords="1495,79,1657,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1357,31,1532,76,1530,81,1356,37"/>
+<area shape="rect" id="Node000011" href="$tqcm__uim_8h.html" title="UIM requests." alt="" coords="1681,79,1844,104"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1378,29,1688,76,1688,81,1377,34"/>
+<area shape="rect" id="Node000012" href="$tqcm__voice_8h.html" title="VOICE requests." alt="" coords="1868,79,2041,104"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1378,25,1856,76,1868,77,1867,83,1856,81,1377,30"/>
+<area shape="rect" id="Node000013" href="$tqcm__wda_8h.html" title="WDA requests." alt="" coords="2065,79,2231,104"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1378,22,1675,43,2054,76,2065,77,2065,83,2053,81,1675,49,1378,27"/>
+<area shape="rect" id="Node000014" href="$tqcm__wds_8h.html" title="WDS requests." alt="" coords="2255,79,2419,104"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1378,20,1752,40,1996,56,2243,76,2256,77,2255,83,2242,81,1995,61,1751,45,1378,25"/>
+<area shape="rect" id="Node000015" href="$tqcm__wms_8h.html" title="WMS requests." alt="" coords="2443,79,2613,104"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1378,19,1826,37,2127,54,2432,76,2443,77,2443,82,2432,81,2126,59,1826,42,1378,24"/>
+</map>

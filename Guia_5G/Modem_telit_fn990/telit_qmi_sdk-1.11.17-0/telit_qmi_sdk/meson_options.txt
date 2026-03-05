@@ -1,0 +1,2 @@
+option('shared', type:'boolean', value:false, description:'if true, build shared libraries, static libraries otherwise.')
+option('stack-usage', type:'boolean', value:false, description:'enable stack usage report')

@@ -1,0 +1,9 @@
+<map id="qos_flow_spec_t" name="qos_flow_spec_t">
+<area shape="rect" id="Node000001" title="QMI QOS flow spec type." alt="" coords="408,77,536,102"/>
+<area shape="rect" id="Node000002" href="$structqos__ip__flow__data__rate__min__max__t.html" title="QMI QOS ip flow data rate minimum and maximum type." alt="" coords="5,5,172,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,25,283,34,385,52,445,74,443,79,383,57,282,39,186,31"/>
+<area shape="rect" id="Node000003" href="$structqos__ip__flow__data__rate__token__bucket__t.html" title="QMI QOS ip flow data rate token bucket type." alt="" coords="5,69,172,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,87,408,87,408,92,186,92"/>
+<area shape="rect" id="Node000004" href="$structqos__ip__flow__packet__error__rate__t.html" title="QMI QOS ip flow packet error rate type." alt="" coords="15,133,163,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,140,384,107,418,99,419,105,384,112,177,145"/>
+</map>

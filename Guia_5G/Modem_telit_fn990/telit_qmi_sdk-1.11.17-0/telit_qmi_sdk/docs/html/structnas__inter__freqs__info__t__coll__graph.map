@@ -1,0 +1,5 @@
+<map id="nas_inter_freqs_info_t" name="nas_inter_freqs_info_t">
+<area shape="rect" id="Node000001" title="QMI NAS inter&#45;frequencies information type." alt="" coords="5,93,172,119"/>
+<area shape="rect" id="Node000002" href="$structnas__cell__params__t.html" title="QMI NAS cell parameters type." alt="" coords="17,5,160,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,45,91,93,86,93,86,45"/>
+</map>

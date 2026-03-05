@@ -1,0 +1,5 @@
+<map id="nas_wcdma_info_lte_neighbor_cell_t" name="nas_wcdma_info_lte_neighbor_cell_t">
+<area shape="rect" id="Node000001" title="QMI NAS WCDMA Info &#45; LTE Neighbor Cell Info Set type." alt="" coords="11,108,166,148"/>
+<area shape="rect" id="Node000002" href="$structnas__umts__lte__nbr__cell__info__t.html" title="QMI NAS UMTS, LTE, NBR cell instance type." alt="" coords="5,5,172,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,59,91,108,86,108,86,59"/>
+</map>

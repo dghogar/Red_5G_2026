@@ -1,0 +1,7 @@
+<map id="nas_system_selection_pref_t" name="nas_system_selection_pref_t">
+<area shape="rect" id="Node000001" title="output type for QMI_NAS_GET_SYSTEM_SELECTION_PREFERENCE" alt="" coords="111,123,278,163"/>
+<area shape="rect" id="Node000002" href="$structnas__lte__band__pref__ext__t.html" title="QMI NAS LTE Band Preference Extended type." alt="" coords="5,5,187,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,43,113,71,129,97,157,121,154,125,125,100,108,73,99,45"/>
+<area shape="rect" id="Node000003" href="$structnas__nr5g__band__pref__t.html" title="QMI NAS NR5G Band Preference type." alt="" coords="211,5,376,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,45,282,73,266,100,237,125,234,120,262,97,277,71,286,43"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="cat_ind_event_report_t" name="cat_ind_event_report_t">
+<area shape="rect" id="Node000001" title="output type for QMI_CAT_EVENT_REPORT_IND indication" alt="" coords="5,181,176,207"/>
+<area shape="rect" id="Node000002" href="$structcat__generic__proactive__command__t.html" title="generic proactive command type" alt="" coords="8,5,173,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,59,93,181,88,181,88,59"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="sdk_docs/telit_sdk_atr.h" name="sdk_docs/telit_sdk_atr.h">
+<area shape="rect" id="Node000001" title="ATR pack/unpack functions Service ID: QMI_SVC_ATR (237)" alt="" coords="126,5,269,45"/>
+<area shape="rect" id="Node000002" href="$telit__sdk_8h.html" title="SDK core functions." alt="" coords="152,93,243,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,46,200,79,195,79,195,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,88,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,121,85,163,83,158,172,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="112,167,187,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,121,167,157,162,154,187,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,167,282,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="208,117,233,154,229,157,203,121"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="306,167,382,192"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="222,116,309,158,307,163,220,121"/>
+</map>

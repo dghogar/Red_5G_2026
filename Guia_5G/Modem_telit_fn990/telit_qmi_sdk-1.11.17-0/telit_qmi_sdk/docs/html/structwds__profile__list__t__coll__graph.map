@@ -1,0 +1,7 @@
+<map id="wds_profile_list_t" name="wds_profile_list_t">
+<area shape="rect" id="Node000001" title="QMI WDS profile list data type." alt="" coords="137,93,272,119"/>
+<area shape="rect" id="Node000002" href="$structwds__profile__list__element__t.html" title="QMI WDS profile list element data type." alt="" coords="5,5,201,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,38,192,91,189,95,126,42"/>
+<area shape="rect" id="Node000003" href="$structwds__profile__ext__err__t.html" title="QMI WDS generic extended error type." alt="" coords="225,5,387,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="283,42,220,95,217,91,280,38"/>
+</map>

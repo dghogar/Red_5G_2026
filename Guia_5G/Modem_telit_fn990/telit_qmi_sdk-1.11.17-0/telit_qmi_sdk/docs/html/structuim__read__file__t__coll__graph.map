@@ -1,0 +1,5 @@
+<map id="uim_read_file_t" name="uim_read_file_t">
+<area shape="rect" id="Node000001" title="input type for QMI_UIM_READ_TRANSPARENT" alt="" coords="43,93,166,119"/>
+<area shape="rect" id="Node000002" href="$structuim__session__information__t.html" title="QMI UIM session information type." alt="" coords="5,5,204,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,45,107,93,102,93,102,45"/>
+</map>

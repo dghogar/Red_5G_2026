@@ -1,0 +1,5 @@
+<map id="uim_logical_channel_resp_t" name="uim_logical_channel_resp_t">
+<area shape="rect" id="Node000001" title="QMI UIM logical channel info response." alt="" coords="5,93,160,133"/>
+<area shape="rect" id="Node000002" href="$structuim__card__result__t.html" title="QMI UIM result status codes type." alt="" coords="13,5,152,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,44,85,93,80,93,80,44"/>
+</map>

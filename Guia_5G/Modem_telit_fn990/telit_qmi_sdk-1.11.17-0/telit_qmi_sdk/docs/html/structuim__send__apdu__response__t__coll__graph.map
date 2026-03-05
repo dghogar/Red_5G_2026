@@ -1,0 +1,5 @@
+<map id="uim_send_apdu_response_t" name="uim_send_apdu_response_t">
+<area shape="rect" id="Node000001" title="QMI UIM send APDU response type." alt="" coords="5,108,208,133"/>
+<area shape="rect" id="Node000002" href="$structuim__long__apdu__response__info__t.html" title="QMI UIM long APDU response info type." alt="" coords="13,5,200,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,59,109,108,104,108,104,59"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="loc_gal_sv_info_t" name="loc_gal_sv_info_t">
+<area shape="rect" id="Node000001" title="QMI GAL SV Info type." alt="" coords="36,93,171,119"/>
+<area shape="rect" id="Node000002" href="$structloc__gal__sv__info__instance__t.html" title="QMI LOC GAL SV Info Instance type." alt="" coords="5,5,201,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,45,106,93,101,93,101,45"/>
+</map>

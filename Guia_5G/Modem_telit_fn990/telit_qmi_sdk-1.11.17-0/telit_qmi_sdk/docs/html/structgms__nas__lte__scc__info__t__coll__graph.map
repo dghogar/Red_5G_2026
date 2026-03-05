@@ -1,0 +1,7 @@
+<map id="gms_nas_lte_scc_info_t" name="gms_nas_lte_scc_info_t">
+<area shape="rect" id="Node000001" title="output type for QMI_GMS_NAS_GET_LTE_SCC_RX_INFO request" alt="" coords="83,255,259,280"/>
+<area shape="rect" id="Node000002" href="$structgms__nas__scc__info__t.html" title="GMS SCC Information type." alt="" coords="5,13,157,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,50,169,254,164,256,88,52"/>
+<area shape="rect" id="Node000003" href="$structgms__nas__scc__rx__info__inst__t.html" title="GMS SCC RX information type." alt="" coords="181,5,341,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,59,269,97,265,142,255,189,234,232,220,247,204,257,201,252,217,242,230,229,250,187,260,141,263,97,262,59"/>
+</map>
