@@ -1,0 +1,61 @@
+
+sudo systemctl stop open5gs-nrfd
+sudo systemctl stop open5gs-scpd
+sudo systemctl stop open5gs-seppd
+sudo systemctl stop open5gs-amfd
+sudo systemctl stop open5gs-smfd
+sudo systemctl stop open5gs-upfd
+sudo systemctl stop open5gs-ausfd
+sudo systemctl stop open5gs-udmd
+sudo systemctl stop open5gs-udrd
+sudo systemctl stop open5gs-pcfd
+sudo systemctl stop open5gs-nssfd
+sudo systemctl stop open5gs-bsfd
+sudo systemctl stop open5gs-mmed
+sudo systemctl stop open5gs-sgwcd
+sudo systemctl stop open5gs-sgwud
+sudo systemctl stop open5gs-pcrfd
+sudo systemctl stop open5gs-hssd
+sudo systemctl stop open5gs-webui
+
+#sudo systemctl restart open5gs-mmed
+#sudo systemctl restart open5gs-sgwcd
+#sudo systemctl restart open5gs-smfd
+#sudo systemctl restart open5gs-amfd
+#sudo systemctl restart open5gs-sgwud
+#sudo systemctl restart open5gs-upfd
+#sudo systemctl restart open5gs-hssd
+#sudo systemctl restart open5gs-pcrfd
+#sudo systemctl restart open5gs-nrfd
+#sudo systemctl restart open5gs-scpd
+#sudo systemctl restart open5gs-seppd
+#sudo systemctl restart open5gs-ausfd
+#sudo systemctl restart open5gs-udmd
+#sudo systemctl restart open5gs-pcfd
+#sudo systemctl restart open5gs-nssfd
+#sudo systemctl restart open5gs-bsfd
+#sudo systemctl restart open5gs-udrd
+#sudo systemctl restart open5gs-webui
+
+sudo systemctl restart open5gs-nrfd
+sudo systemctl restart open5gs-scpd
+#sudo systemctl restart open5gs-seppd
+sudo systemctl restart open5gs-amfd
+sudo systemctl restart open5gs-smfd
+sudo systemctl restart open5gs-upfd
+sudo systemctl restart open5gs-ausfd
+sudo systemctl restart open5gs-hssd
+sudo systemctl restart open5gs-udmd
+sudo systemctl restart open5gs-udrd
+sudo systemctl restart open5gs-pcfd
+sudo systemctl restart open5gs-nssfd
+sudo systemctl restart open5gs-bsfd
+sudo systemctl restart open5gs-webui
+
+
+#sudo sysctl -w net.ipv4.ip_forward=1
+#sudo sysctl -w net.ipv6.conf.all.forwarding=1
+
+#sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/16 ! -o ogstun -j MASQUERADE
+#sudo ip6tables -t nat -A POSTROUTING -s 2001:230:cafe::/48 ! -o ogstun -j MASQUERADE
+sudo tail -f /var/log/open5gs/*.log
