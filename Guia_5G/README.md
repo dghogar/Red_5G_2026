@@ -252,6 +252,244 @@ Pasos típicos de prueba:
 
 ---
 
+## gNB con srsRAN_Project y BladeRF (Ubuntu 20.04)
+
+Basado en la documentación oficial de srsRAN:  
+- https://docs.srsran.com/projects/project/en/latest/user_manuals/source/installation.html  
+- https://docs.srsran.com/projects/project/en/latest/tutorials/source/cotsUE/source/index.html  
+
+Entorno de trabajo: **Ubuntu 20.04.6 Focal** con el proyecto en `~/gnbsrs_RANProject`.
+
+---
+
+### 1. Instalación de drivers SDR y SoapySDR
+
+Añadir los PPAs necesarios (opción `-y` para automatizar):
+
+```bash
+sudo add-apt-repository -y ppa:pothosware/framework
+sudo add-apt-repository -y ppa:pothosware/support
+sudo add-apt-repository -y ppa:myriadrf/drivers
+
+# En algunos sistemas pueden fallar, pero se dejan aquí por compatibilidad:
+sudo add-apt-repository -y ppa:bladerf/bladerf
+sudo add-apt-repository -y ppa:ettusresearch/uhd
+
+sudo apt update
+```
+Instalar SoapySDR y herramientas (Soapy es una capa de abstracción para SDR):
+```bash
+sudo apt install cmake g++ libpython3-dev python3-numpy swig
+sudo apt install soapysdr-tools python3-soapysdr
+sudo apt install soapysdr-module-remote soapyremote-server
+```
+Instalar soporte para hardware SDR:
+```bash
+sudo apt install bladerf soapysdr-module-bladerf
+sudo apt install uhd-host uhd-soapysdr soapysdr-module-uhd
+sudo apt install rtl-sdr soapysdr-module-rtlsdr
+```
+Dependencias adicionales para UHD:
+```bash
+sudo apt install autoconf automake build-essential ccache cmake cpufrequtils doxygen ethtool \
+g++ git inetutils-ping libboost-all-dev libncurses-dev libusb-1.0-0-dev \
+python3.10-dev python3-mako python3-numpy python3-requests python3-scipy \
+python3-setuptools python3-ruamel.yaml
+```
+2. Versiones de repositorios utilizadas
+Para asegurar compatibilidad se fijan los siguientes commits:
+
+* SoapyRemote → 54caa5b2af348906607c5516a112057650d0873d
+* SoapyBladeRF → 3d36e4209e32f3823573e6cdc2093575ec398d44
+* SoapySDR → fbf9f3c328868f46029284716df49095ab7b99a6
+* SoapyUHD → 6b521393cc45c66770f3d4bc69eac7dda982174c
+* UHD → 0dede88c6535ae6ffb30b162c83dc01d59d3bfa0
+* BladeRF → 43a559dd5ed77df94bef9e28c1f45126c4d051a5
+* srsRAN_Project → 2be82d8ea38e3a729850b702254952c04118cc38
+Comprobar y cambiar a la rama/commit correcto:
+```bash
+git rev-parse HEAD          # Ver commit actual
+git checkout <hash_deseado> # Cambiar a la versión que queremos
+# Volver a entrar en build/ y recompilar
+```
+
+3. Compilación de UHD 4.8.0.0 desde GitHub
+Versión recomendada por compatibilidad con srsRAN (git checkout v4.8.0.0):
+```bash
+git clone https://github.com/EttusResearch/uhd.git
+cd uhd/host
+git checkout v4.8.0.0
+mkdir build && cd build
+cmake ../
+make -j$(nproc)
+# make test    # Opcional
+sudo make install
+sudo ldconfig
+```
+
+4. Compilación de SoapySDR, SoapyBladeRF, SoapyUHD, BladeRF y SoapyRemote
+```bash
+# SoapySDR
+git clone https://github.com/pothosware/SoapySDR.git
+cd SoapySDR
+mkdir build && cd build
+cmake ../
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+
+# SoapyBladeRF
+git clone https://github.com/pothosware/SoapyBladeRF.git
+cd SoapyBladeRF
+mkdir build && cd build
+cmake ../
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+
+# SoapyUHD
+git clone https://github.com/pothosware/SoapyUHD.git
+cd SoapyUHD
+mkdir build && cd build
+cmake ../
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+
+# BladeRF
+git clone https://github.com/Nuand/bladeRF.git
+cd bladeRF
+mkdir build && cd build
+cmake ../
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+
+# SoapyRemote
+git clone https://github.com/pothosware/SoapyRemote.git
+cd SoapyRemote
+mkdir build && cd build
+cmake ../
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+```
+
+5. Instalación de librerías libbladerf específicas (Ubuntu Focal)
+Descargar los paquetes exactos desde Launchpad:
+```bash
+wget http://ppa.launchpad.net/nuandllc/bladerf/ubuntu/pool/main/b/bladerf/libbladerf2_2022.08_amd64.deb
+wget http://ppa.launchpad.net/nuandllc/bladerf/ubuntu/pool/main/b/bladerf/libbladerf-udev_2022.08_amd64.deb
+wget http://ppa.launchpad.net/nuandllc/bladerf/ubuntu/pool/main/b/bladerf/libbladerf-dev_2022.08_amd64.deb
+```
+Instalar y bloquear versión:
+```bash
+sudo dpkg -i *.deb
+sudo apt-mark hold libbladerf-dev libbladerf-udev libbladerf2
+dpkg -l | grep libbladerf   # Ver librerías instaladas
+```
+
+6. Reglas udev para BladeRF
+Asignar permisos al grupo plugdev (por defecto), creando /dev/bladerf* accesible para usuarios no root:
+```bash
+sudo nano /etc/udev/rules.d/88-nuand-bladerf2.rules
+sudo nano /etc/udev/rules.d/88-nuand-bladerf1.rules
+sudo nano /etc/udev/rules.d/88-nuand-bootloader.rules
+```
+Después de editarlas:
+```bash
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
+
+7. Instalación de srsRAN_Project
+Dependencias:
+```bash
+sudo apt install -y cmake build-essential libfftw3-dev libmbedtls-dev \
+libboost-program-options-dev libconfig++-dev libsctp-dev libzmq3-dev \
+libspdlog-dev libfmt-dev libpcsclite-dev gnuradio-dev
+```
+Clonar repositorio y compilar:
+```bash
+git clone https://github.com/srsran/srsRAN_Project.git
+cd srsRAN_Project
+git checkout 2be82d8ea38e3a729850b702254952c04118cc38
+mkdir build && cd build
+cmake ../
+make -j$(nproc)
+
+# Si da fallo en la compilación:
+CC=gcc-11 CXX=g++-11 cmake ../ -DCMAKE_BUILD_TYPE=RelWithDebInfo
+make -j1      # (tarda ~40 minutos, pero evita errores)
+sudo make install
+sudo ldconfig
+```
+
+8. Adaptaciones de srsRAN para uso con Soapy + BladeRF
+Ruta principal: ~/gnbsrs_RANProject/srsRAN_Project/lib/radio/uhd.
+
+Según la discusión oficial de srsRAN, para usar BladeRF xA9 vía SoapySDR hay que modificar:
+
+8.1 Eliminar referencia a time_source en radio_uhd_device.h
+Localizar con:
+```bash
+grep -n "time_source\|time_sources\|get_time_sources\|set_time_source" radio_uhd_device.h
+```
+En la zona de las líneas 292, 293, 294, 303 comentar el bloque:
+```cpp
+// std::vector<std::string> time_sources = usrp->get_time_sources(0);
+// if (std::find(time_sources.begin(), time_sources.end(), sync_src) == time_sources.end()) {
+//   on_error("Invalid time source {}. Supported: {}", sync_src, span<const std::string>(time_sources));
+//   return;
+// }
+// usrp->set_time_source(sync_src);
+```
+Esto evita el error relacionado con clock internal.
+
+8.2 Timeout de transmisión y recepción
+En radio_uhd_tx_stream.h (línea 44 aprox.):
+```cpp
+#define TRANSMIT_TIMEOUT_S 0
+```
+En radio_uhd_rx_stream.h (línea 40 aprox.):
+```cpp
+#define RECEIVE_TIMEOUT_S 0
+```
+Después de los cambios, recompilar:
+```bash
+cd ~/gnbsrs_RANProject/srsRAN_Project/build
+make clean
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+```
+
+9. Significado de los LEDs de BladeRF
+Referencia: https://github.com/Nuand/bladeRF/wiki/FPGA-Development
+
+LED1 (D11)
+Usado como LED de heartbeat o actividad general de la FPGA. Parpadeo periódico cuando la FPGA está cargada y funcionando correctamente.
+
+LED2 (D12) – TX underflow
+Se enciende/parpadea cuando el flujo de muestras hacia el transmisor se queda sin datos (underflow en el buffer de TX).
+
+En transmisión continua sin problemas debe permanecer apagado o con parpadeo esporádico.
+
+Si parpadea mucho, hay problemas de entrega de muestras desde el host.
+
+LED3 (D13) – RX overflow
+Se activa cuando el receptor recibe más muestras de las que el host es capaz de leer a tiempo (overflow en el buffer de RX).
+
+Notas adicionales:
+
+En una recepción estable LED2 y LED3 deberían estar apagados; actividad intensa indica cuello de botella en el PC o en la cadena de procesamiento.
+
+Si LED1 está apagado tras cargar el bitstream, suele indicar que la FPGA no está programada o que el diseño no está arrancando correctamente.
+
+
+
+
+
 ## Conexión del módem Telit FN990A28
 
 El módem **Telit Wireless Connection FN990A28** se utiliza como UE 5G para la comunicación **gNB–CORE**.
