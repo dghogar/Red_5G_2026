@@ -252,6 +252,81 @@ Pasos típicos de prueba:
 
 ---
 
+## Conexión del módem Telit FN990A28
+
+El módem **Telit Wireless Connection FN990A28** se utiliza como UE 5G para la comunicación **gNB–CORE**.
+
+### Preparación del SDK y librerías
+
+```bash
+cd ~/telit_qmi_sdk-1.11.17-0
+find . -name "libtelitSDK.so" -o -name "libtqcm.so" # DONDE SE ENCUENTRA LA LIBRERIA
+
+sudo cp ~/telit_qmi_sdk-1.11.17-0/telit_qmi_sdk/lib/libtelitSDK.so /usr/local/lib/
+sudo cp ~/telit_qmi_sdk-1.11.17-0/telit_qmi_sdk/lib/libtqcm.so     /usr/local/lib/
+echo "/usr/local/lib" | sudo tee /etc/ld.so.conf.d/telit.conf
+sudo ldconfig
+```
+MUY IMPORTANTE: PARAR NETWORK MANAGER
+```bash
+sudo systemctl stop NetworkManager
+sudo systemctl disable NetworkManager
+sudo systemctl status NetworkManager
+```
+Comandos AT para verificación del módem
+
+| Comando     | Descripción                                            |
+| ----------- | ------------------------------------------------------ |
+| AT          | Debe responder OK, confirma comunicación con el módem. |
+| ATI         | Muestra información del módem.                         |
+| AT+CPIN?    | Verifica si la SIM está lista (READY).                 |
+| AT+CREG?    | Verifica registro en red (0,1 o 0,5).                  |
+| AT+CGDCONT? | Verifica perfil PDP/DNN configurado (0-10 aceptable).  |
+| AT+CSQ      | Fuerza de señal (>10 aceptable).                       |
+| AT+CGATT?   | ¿Está enganchado a la red? Debe responder 1.           |
+| AT+CGACT?   | ¿Está activado el contexto de datos?                   |
+| AT+CNMP=71  | Fuerza el módem para 5G NR.                            |
+
+Consola serie:
+```bash
+sudo minicom -D /dev/ttyUSB2 -b 115200
+```
+
+Configuración con qmicli
+```bash
+# Forzar 5G NR
+sudo qmicli -d /dev/cdc-wdm0 --nas-set-system-selection-preference="5gnr"
+
+# Ver todos los perfiles 3GPP (había hasta 26, por eso fallaba)
+sudo qmicli -d /dev/cdc-wdm0 --wds-get-profile-list=3gpp
+
+# Borrar perfiles innecesarios
+sudo qmicli -d /dev/cdc-wdm0 --wds-delete-profile=3gpp,26
+```
+ESTABLECER CONEXIÓN gNB–CORE PRIMERO
+IMPORTANTE: Primero conexión gNB–CORE, después enchufar USB módem , esperar a primera conexión-desconexión y comandos (sino ERROR).
+
+```bash
+cd ~/telit_qmi_sdk-1.11.17-0/telit_qmi_sdk-1.11.17-0/telit_qmi_sdk/tqcm/examples/data_connection_example
+
+make clean
+make
+
+sudo ./telit_data_connection -c data_connection.conf
+```
+Verificación con iperf3 y ping
+```bash
+#CORE (servidor):
+iperf3 -s -p 5201
+
+#Módem (cliente):
+iperf3 -c 10.45.0.1 -p 5201
+
+#Ping:
+ping 8.8.8.8
+```
+
+
 ## References
 
 1. [open5gs/docs/_docs/guide/01-quickstart.md at main · open5gs/open5gs](https://github.com/open5gs/open5gs/blob/main/docs/_docs/guide/01-quickstart.md?plain=1) - Open5GS is a C-language Open Source implementation for 5G Core and EPC, i.e. the core network of LTE...
