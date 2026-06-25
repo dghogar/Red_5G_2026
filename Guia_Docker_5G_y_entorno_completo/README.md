@@ -92,4 +92,4 @@ Una vez el módem integrado en el robot adquiera una IP del túnel 5G (ej. 10.47
 \### Notas sobre el diseño de este README:
 
 1. \*\*Explicación del UGV:\*\* Está destacado como el \*\*caso de uso final\*\* del proyecto. La mención que he puesto (\*"[Nota: Debido a su volumen, el código fuente completo no se detalla en los anexos en bruto]"\*) justifica perfectamente ante el tribunal por qué esa carpeta concreta existe en las capturas pero no se detalla línea a línea en el anexo de código de tu memoria.
-1. \*\*Orden lógico:\*\* El "Flujo de Despliegue Recomendado" explica el porqué de cada c
+1. \*\*Orden lógico:\*\* El "Flujo de Despliegue Recomendado" explica el porqué de cada componente y de cada proceso
