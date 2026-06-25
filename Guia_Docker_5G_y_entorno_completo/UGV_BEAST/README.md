@@ -131,7 +131,7 @@ Una vez establecida la ruta de red, ingresa mediante SSH a la Raspberry Pi del U
 ssh ws@192.168.42.10
 
 # Navegar al directorio de trabajo e inicializar el agente robótico
-cd 'Prueba 9'
+cd 'WebConServidor'
 python3 app_ugv.py
 ```
 
