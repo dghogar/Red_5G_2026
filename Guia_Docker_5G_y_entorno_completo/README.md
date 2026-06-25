@@ -11,13 +11,13 @@ A diferencia del despliegue centrado puramente en la radio, esta guía proporcio
 El entorno está modularizado en las siguientes carpetas y archivos clave:
 
 - **`ARQ_entorno.jpg` / `arq_interfaces_open5gs.jpeg`**: esquemas visuales y diagramas de arquitectura de red que detallan las interfaces SBA del núcleo Open5GS y la topología física/lógica del despliegue.
-- **`core_5G_docker/`**: archivos `docker-compose.yaml` y configuraciones `.env` para instanciar las funciones del plano de control del núcleo 5G (AMF, SMF, UDM, UDR, NRF, PCF, etc.) basadas en Open5GS.
+- **`core_5G_docker/`**: archivos `docker-compose.yaml` y configuraciones `.env` para instanciar las funciones del plano de control del núcleo 5G (AMF, SMF, UDM, UDR, NRF, PCF, etc.) basadas en Open5GS y donde se encuentra centralizado las metricas monitorizadas existentes.
 - **`eUPF/`**: despliegue especializado de la *User Plane Function* utilizando la tecnología eBPF/XDP (`edgecomllc/eupf`). Incluye la configuración que permite a esta función procesar paquetes directamente en el kernel de Linux para lograr latencias ultrabajas.
 - **`edge_computing_mec/`**: implementación en Python de las APIs del estándar ETSI MEC. Incluye el servidor MEC011 (registro de apps), MEC012 (RNIS / notificaciones de radio), el orquestador dinámico y el proxy inverso NGINX que enruta el tráfico Edge.
-- **`monitorizacion/`**: stack completo de observabilidad. Incluye Prometheus (recolección de métricas), Grafana (dashboards visuales), cAdvisor (rendimiento de contenedores) y Promtail/Loki para la trazabilidad centralizada de los logs del sistema 5G.
+- **`monitorizacion/`**: stack completo de observabilidad. Incluye Prometheus (recolección de métricas), Grafana (dashboards visuales), cAdvisor (rendimiento de contenedores) y Promtail/Loki para la trazabilidad centralizada de los logs del sistema 5G. (situados en eUPF y DN/GW)
 - **`ran_srsran/`**: configuraciones avanzadas (archivos `.conf` y `.yml`) para levantar la estación base gNodeB física utilizando radios definidas por software (SDR) mediante srsRAN.
 - **`ueransim/`**: entorno de simulación de gNodeB y equipos de usuario (UEs). Vital para probar escenarios de **Network Slicing** (múltiples UEs conectándose a distintas subredes) sin depender del hardware de radio físico.
-- **`scripts_modem_sim/`**: conjunto de herramientas, comandos AT/QMI y rutinas de `pySim` destinadas al aprovisionamiento criptográfico de las tarjetas SIM físicas y la configuración del módem M.2.
+- **`scripts_modem_sim/`**: conjunto de scripts necesarios situados en el portatil conectado a través del modem (GUIA conexion GUIA_5G) donde recibe lista de aplicaciones operativas.
 - **`UGV_BEAST/`**: contiene el servidor web de baja latencia y el script controlador del robot físico (Vehículo Terrestre No Tripulado). Representa el **caso de uso final**: teleoperación asíncrona y transmisión de vídeo en tiempo real aprovechando el Edge Computing para evadir el CG-NAT y la latencia de las redes públicas.
 
 > **Nota:** Debido a su volumen, el código fuente completo de `UGV_BEAST/` puede no detallarse en los anexos en bruto de la memoria, aunque la carpeta forme parte del entorno funcional del proyecto.
