@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Defense</title>
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/leaflet.draw.css" />
+    <link rel="stylesheet" href="css/style_main.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <h2 class="title">DATOS Y CONTROL</h2>
+            
+            <button class="btn-manual btn-config" onclick="abrirConfiguracionFlota()">
+                 CONFIGURAR RED DE ENJAMBRE
+            </button>
+
+            <div id="fleet-container">
+                <p class="empty-fleet-msg">Sin robots configurados. Abre la configuración de red.</p>
+            </div>
+
+            <div class="global-controls">
+                <h3>Introducir zonas a mano</h3>
+                <button class="btn-action-alt mb-10" onclick="openZoneModal()">Crear Zona por Coordenadas</button>
+                <p id="system-status" class="status-msg">Esperando configuración de flota...</p>
+                <button id="btn-execute" class="btn-execute" disabled onclick="executeMission()">EJECUTAR</button>
+                <button id="btn-parada" class="boton-emergencia" disabled> ABORTAR </button>
+            </div>
+        </aside>
+
+        <main class="map-zone">
+            <div id="map"></div>
+        </main>
+    </div>
+
+    <div id="modal-fleet" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <span class="close" onclick="closeModal('modal-fleet')">&times;</span>
+                <h2 class="modal-title-accent">CONFIGURACIÓN DEL ENJAMBRE</h2>
+            </div>
+            
+            <div class="modal-body">
+                <div class="fleet-layout">
+                    <div class="input-form fleet-col">
+                        <h3>Añadir Unidad</h3>
+                        <label>ID / Nombre Corto:</label>
+                        <input type="text" id="fleet-id" placeholder="Ej: yahboom, ugv1, aereo3">
+                        
+                        <label>Dirección IP (Red MANET/WiFi):</label>
+                        <input type="text" id="fleet-ip" placeholder="Ej: 192.168.50.1">
+                        
+                        <label>Sensor Principal (Evasión):</label>
+                        <select id="fleet-sensor">
+                            <option value="ultrasonic">Radar Ultrasonidos (HC-SR04)</option>
+                            <option value="lidar">LiDAR 2D / 3D</option>
+                            <option value="camera">Visión Artificial (Cámara)</option>
+                        </select>
+
+                        <label>Rol en la Red:</label>
+                        <select id="fleet-role">
+                            <option value="slave">Esclavo / Secundario</option>
+                            <option value="master" class="opt-master">Maestro / Primario</option>
+                        </select>
+
+                        <button class="btn-action mt-15" onclick="agregarRobotAFlota()">➕ AÑADIR A LA LISTA</button>
+                    </div>
+
+                    <div class="fleet-list-container">
+                        <h3>Unidades Registradas</h3>
+                        <ul id="fleet-list" class="fleet-list-style">
+                            </ul>
+                    </div>
+                </div>
+            </div> 
+            <div class="modal-footer">
+                <button class="btn-execute btn-full" onclick="guardarFlotaYReiniciar()">GUARDAR RED Y REINICIAR MAPA</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-target" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-target')">&times;</span>
+            <h3 id="modal-target-title">Destino Manual: ---</h3>
+            <div class="input-form">
+                <label>Latitud:</label>
+                <input type="number" id="input-lat" step="any" placeholder="Ej: 41.6624">
+                <label>Longitud:</label>
+                <input type="number" id="input-lng" step="any" placeholder="Ej: -4.7056">
+                <button class="btn-execute" onclick="applyManualTarget()">Aplicar Destino</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-zone" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-zone')">&times;</span>
+            <h3>Crear Zona (Vértices GPS)</h3>
+            <label>Tipo de Zona:</label>
+            <select id="select-zone-type">
+                <option value="mission">Zona a controlar</option>
+                <option value="forbidden">Zona Peligrosa</option>
+            </select>
+            
+            <p class="help-text">Introduce las coordenadas de los vértices (separadas por coma, cada vértice en una nueva línea):<br><i>Ej:<br>41.662, -4.705<br>41.663, -4.706<br>...</i></p>
+            <textarea id="input-polygon" rows="5" placeholder="Lat, Lng\nLat, Lng..."></textarea>
+            
+            <button class="btn-execute" onclick="applyManualZone()">Dibujar Zona</button>
+        </div>
+    </div>
+
+    <div id="manual-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:9999; background:#000;">
+        <iframe id="manual-iframe" style="width:100%; height:100%; border:none;"></iframe>
+    </div>
+
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet.draw.js"></script>
+    <script src="js/turf.min.js"></script>
+    <script src="js/socket.io.min.js"></script>
+    <script src="js/script_main.js"></script>
+</body>
+</html> 

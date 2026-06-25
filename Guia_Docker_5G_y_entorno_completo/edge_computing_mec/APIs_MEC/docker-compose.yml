@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  mep-server:
+    build:
+      context: ./011/tfg_mec_project/mep_server/generated_mep
+    ports:
+      - "8080:8080"
+    networks:
+      - mec-network
+
+  rnis-server:
+    build:
+      context: ./012/rnis_server/generated_rnis
+    ports:
+      - "8081:8080" # Mapeamos al 8081 por fuera
+    networks:
+      - mec-network
+
+  discovery-proxy:
+    build:
+      context: ./discovery_proxy
+    ports:
+      - "8085:8085"
+    environment:
+      # URLs usando los nombres de los contenedores en la red interna
+      - MEC011_URL=http://mep-server:8080/mec_app_support/v1/registrations
+      - MEC012_URL=http://rnis-server:8080/rni/v2/subscriptions
+    depends_on:
+      - mep-server
+      - rnis-server
+    networks:
+      - mec-network
+
+  edge-reverse-proxy:
+    image: nginx:latest
+    container_name: nginx-edge-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    restart: unless-stopped
+
+networks:
+  mec-network:
+    driver: bridge

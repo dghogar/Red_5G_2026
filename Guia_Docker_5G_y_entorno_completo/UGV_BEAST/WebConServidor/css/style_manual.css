@@ -1,0 +1,186 @@
+/* =========================================================
+   1. BASE Y RESET
+   ========================================================= */
+body {
+    margin: 0; background-color: #050505; color: #00ffcc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh; display: flex; flex-direction: column; overflow: hidden;
+}
+
+/* =========================================================
+   2. LAYOUT PRINCIPAL
+   ========================================================= */
+.top-bar {
+    background: #111; border-bottom: 2px solid #333; padding: 10px 20px;
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+.manual-container {
+    display: flex; flex: 1; overflow: hidden;
+}
+
+.side-panel {
+    width: 250px; background: #0a0a0a; border-right: 1px solid #222; border-left: 1px solid #222;
+    padding: 15px; box-sizing: border-box; overflow-y: auto;
+}
+.side-panel h3 { 
+    color: #888; font-size: 0.85em; text-align: center; border-bottom: 1px solid #333; 
+    padding-bottom: 5px; margin-top: 0; 
+}
+
+.video-zone {
+    flex: 1; position: relative; background: #000; 
+    display: flex; align-items: center; justify-content: center;
+}
+
+#camera-stream {
+    width: 100%; height: 100%; object-fit: contain; 
+}
+
+/* =========================================================
+   3. INDICADORES Y TELEMETRÍA
+   ========================================================= */
+.badge { padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; font-size: 0.9em; color: black; }
+.maestro { background: #ffcc00; }
+.signal-good { background: #33ff33; }
+.battery { background: #00ffcc; }
+
+.data-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+.col-span-2 { grid-column: span 2; }
+.data-box { background: #1a1a1a; padding: 10px; border-radius: 6px; text-align: center; font-size: 0.8em; color: #aaa; border: 1px solid #333; }
+.data-highlight { font-size: 1.4em; color: #00ffcc; font-weight: bold; display: block; margin-top: 5px; font-family: monospace; }
+
+/* =========================================================
+   4. HUD (Heads Up Display)
+   ========================================================= */
+.hud-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+.crosshair {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 40px; height: 40px; border: 2px solid rgba(0, 255, 204, 0.5); border-radius: 50%;
+}
+.crosshair::after { content: ''; position: absolute; top: 19px; left: -10px; right: -10px; height: 2px; background: rgba(0, 255, 204, 0.5); }
+.crosshair::before { content: ''; position: absolute; left: 19px; top: -10px; bottom: -10px; width: 2px; background: rgba(0, 255, 204, 0.5); }
+
+.hud-radar { position: absolute; top: 20px; right: 20px; background: rgba(0,0,0,0.6); padding: 5px 10px; border-radius: 4px; font-family: monospace; font-size: 1.2em; border: 1px solid #00ffcc; }
+.hud-speed { position: absolute; bottom: 80px; left: 20px; background: rgba(0,0,0,0.6); padding: 5px 10px; border-radius: 4px; font-family: monospace; font-size: 1.2em; }
+
+/* --- Estilos específicos para el Radar LiDAR --- */
+.hud-lidar {
+    text-align: right;
+    font-size: 14px;
+    border-right: 3px solid #00ffcc; /* Borde lateral más grueso */
+}
+.lidar-frente {
+    font-size: 16px;
+    color: #00ffcc;
+    margin: 5px 0;
+}
+.alerta-freno {
+    color: #ff4d4d;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.bold {
+    font-weight: bold;
+}
+.hud-lidar-peligro {
+    border-color: #ff4d4d !important;
+}
+
+/* =========================================================
+   5. CONTROLES Y BOTONES (D-PAD / MEDIA)
+   ========================================================= */
+.d-pad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; margin-bottom: 20px; }
+
+.btn-back { background: #333; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.btn-back:hover { background: #444; }
+
+.btn-ctrl { background: #222; color: white; border: 1px solid #444; padding: 15px 0; border-radius: 6px; font-weight: bold; cursor: pointer; user-select: none; }
+.btn-ctrl:active, .btn-ctrl.active { background: #00ffcc; color: black; }
+.btn-stop { background: #ff4444; color: white; border-color: #cc0000; }
+
+.btn-action { width: 100%; background: #333; color: white; border: 1px solid #555; padding: 10px; border-radius: 6px; cursor: pointer; margin-top: 5px; font-weight: bold;}
+.btn-action:hover { background: #444; }
+
+.media-controls { position: absolute; bottom: 20px; display: flex; gap: 15px; }
+.btn-media { background: rgba(26, 26, 26, 0.8); color: white; border: 1px solid #555; padding: 10px 20px; border-radius: 30px; font-weight: bold; cursor: pointer; transition: 0.2s; backdrop-filter: blur(5px); }
+.btn-media:hover { background: #333; transform: scale(1.05); }
+.btn-record { border-color: #ff4444; }
+.btn-folder { border-color: #0066cc; }
+
+/* =========================================================
+   6. MODAL Y GALERÍA MULTIMEDIA
+   ========================================================= */
+.modal-overlay {
+    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.85); z-index: 1000;
+    justify-content: center; align-items: center; backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background: #0a0a0a; border: 2px solid #00ffcc;
+    width: 85%; max-width: 900px; max-height: 85vh; border-radius: 8px;
+    display: flex; flex-direction: column; box-shadow: 0 0 20px rgba(0, 255, 204, 0.15);
+}
+
+.modal-header { padding: 15px 20px; border-bottom: 1px solid #333; display: flex; justify-content: space-between; align-items: center; }
+.modal-header h2 { margin: 0; color: #00ffcc; font-size: 1.2em; letter-spacing: 1px; }
+
+.modal-body { padding: 20px; overflow-y: auto; flex: 1; }
+
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+.gallery-item {
+    background: #1a1a1a; border: 1px solid #333; border-radius: 6px; padding: 10px;
+    text-align: center; display: flex; flex-direction: column;
+}
+.gallery-item img, .gallery-item video {
+    width: 100%; height: 140px; object-fit: cover; border-radius: 4px; cursor: pointer; 
+    border: 1px solid #222; transition: 0.2s;
+}
+.gallery-item img:hover { border-color: #00ffcc; }
+
+.file-name { margin: 10px 0; font-size: 0.8em; color: #aaa; word-break: break-all; font-family: monospace; }
+.gallery-empty { color: #888; grid-column: 1/-1; text-align: center; }
+
+/* =========================================================
+   7. UTILIDADES Y ANIMACIONES
+   ========================================================= */
+.hidden { display: none !important; }
+.mb-5 { margin-bottom: 5px; }
+.mb-20 { margin-bottom: 20px; }
+.btn-pad-large { padding: 10px 20px; }
+.btn-download { text-decoration: none; display: block; box-sizing: border-box; text-align: center; }
+
+.recording { background: #ff4444; color: white; animation: pulse 1.5s infinite; }
+@keyframes pulse { 
+    0% { box-shadow: 0 0 0 0 rgba(255, 68, 68, 0.7); } 
+    70% { box-shadow: 0 0 0 10px rgba(255, 68, 68, 0); } 
+    100% { box-shadow: 0 0 0 0 rgba(255, 68, 68, 0); } 
+}
+
+/* =========================================================
+   8. RESPONSIVO (Media Queries)
+   ========================================================= */
+@media (max-width: 1100px) {
+    .side-panel { width: 220px; padding: 10px; }
+    .data-box { padding: 5px; font-size: 0.75em; }
+    .data-highlight { font-size: 1.2em; }
+    .btn-media { padding: 8px 12px; font-size: 0.8em; }
+    .hud-radar { font-size: 1em; }
+    .hud-speed { font-size: 1em; }
+}
+
+@media (max-width: 850px) {
+    body { overflow-y: auto; height: auto; min-height: 100vh; }
+    .manual-container { flex-direction: column; overflow: visible; }
+    .video-zone { width: 100%; height: 50vh; flex: none; border-bottom: 2px solid #333; }
+    .media-controls { bottom: 10px; transform: scale(0.9); }
+    .side-panel {
+        width: 100%; border-right: none; border-left: none; border-bottom: 2px solid #222;
+        display: flex; flex-wrap: wrap; justify-content: space-around; gap: 15px;
+    }
+    .side-panel > h3 { width: 100%; margin-bottom: 5px; }
+    .side-panel > div { min-width: 250px; flex: 1; }
+    .btn-action { margin-top: 10px; }
+}

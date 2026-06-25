@@ -1,0 +1,8 @@
+[
+    {
+        "id": "beast",
+        "ip": "10.47.0.15",
+        "sensor": "lidar",
+        "role": "master"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "id": "ugv beast",
+        "ip": "10.47.0.9",
+        "sensor": "lidar",
+        "role": "master"
+    }
+]

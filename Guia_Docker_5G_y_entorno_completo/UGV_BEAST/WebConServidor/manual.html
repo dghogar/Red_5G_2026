@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Control Manual</title>
+    <link rel="stylesheet" href="css/style_manual.css">
+    <script src="js/jsmpeg.min.js"></script>
+</head>
+<body>
+
+    <header class="top-bar">
+       <button class="btn-back" onclick="window.parent.postMessage('cerrar_manual', '*');">◀ VOLVER AL MAPA</button>
+        <div class="status-indicators">
+            <span id="robot-title" class="badge maestro">CARGANDO SISTEMA...</span>
+        </div>
+    </header>
+
+    <div class="manual-container">
+        <aside class="side-panel">
+            <h3>TEMPERATURA Y PRESIÓN</h3>
+            <div class="data-grid">
+                <div class="data-box">Temp <br><span id="val-temp" class="data-highlight">-- °C</span></div>
+                <div class="data-box">Pres <br><span id="val-pres" class="data-highlight">-- hPa</span></div>
+            </div>
+            
+            <h3>NAVEGACIÓN</h3>
+            <div class="data-grid">
+                <div class="data-box">Rumbo <br><span id="val-head" class="data-highlight">-- º</span></div>
+                <div class="data-box">Sats <br><span id="val-sats" class="data-highlight">--</span></div>
+                <div class="data-box col-span-2">GPS <br><span id="val-gps" class="data-highlight">--, --</span></div>
+            </div>
+
+            <h3>SISTEMA Y RED</h3>
+            <div class="data-grid">
+                <div class="data-box">CPU <br><span id="val-cpu" class="data-highlight">-- %</span></div>
+                <div class="data-box">RAM <br><span id="val-ram" class="data-highlight">-- %</span></div>
+                <div class="data-box col-span-2">WiFi <br><span id="val-wifi" class="data-highlight">-- %</span></div>
+            </div>
+        </aside>
+
+        <main class="video-zone">
+            <div id="video-container" style="position:relative; width:100%; height:100%; background:#000;">
+                <video id="video-webrtc" autoplay playsinline muted style="display:none; width:100%; height:100%; object-fit:cover;"></video>
+                <canvas id="canvas-jsmpeg" style="display:none; width:100%; height:100%; object-fit:cover;"></canvas>
+                <img id="camera-stream-tcp" style="display:none; width:100%; height:100%; object-fit:cover;" />
+            </div>
+            
+            <div class="hud-overlay">
+                <div id="wifi-warning" style="display:none; position:absolute; top:5%; left:50%; transform:translateX(-50%); background:rgba(255,0,0,0.85); color:white; padding:10px 20px; font-weight:bold; font-size:18px; border-radius:5px; border:2px solid white; z-index:100; text-align:center;">
+                SEÑAL WIFI CRÍTICA (<30%)<br><span style="font-size:14px; font-weight:normal;">Peligro de pérdida de enlace. Pilote hacia atrás.</span>
+                </div>
+                <div class="crosshair"></div>
+                
+                <div id="hud-radar-classic" class="hud-radar">
+                    Distancia: <span id="val-dist">-- cm</span>
+                </div>
+
+                <div id="hud-radar-lidar" class="hud-radar hud-lidar" style="display:none;">
+                    <div>IZQ: <span id="val-lidar-izq">--</span> cm</div>
+                    <div class="lidar-frente">FRENTE: <span id="val-lidar-frente" class="bold">--</span> cm</div>
+                    <div>DER: <span id="val-lidar-der">--</span> cm</div>
+                    <div id="alerta-freno" class="alerta-freno hidden">FRENO AUTO</div>
+                </div>
+
+                <div class="hud-speed">Velocidad: <span id="val-speed">50</span>%</div>
+            </div>
+            
+            <div class="media-controls">
+                <button class="btn-media" onclick="takePhoto()">FOTO (P)</button>
+                <button class="btn-media btn-record" id="btn-record" onclick="toggleRecord()">VÍDEO (V)</button>
+                <button class="btn-media btn-folder" onclick="openGallery()">CARPETA DATOS</button>
+            </div>
+        </main>
+
+        <aside class="side-panel">
+            <h3>CONTROL CHASIS (WASD)</h3>
+            <div class="d-pad">
+                <div></div><button id="btn-w" class="btn-ctrl">W</button><div></div>
+                <button id="btn-a" class="btn-ctrl">A</button>
+                <button id="btn-s" class="btn-ctrl">S</button>
+                <button id="btn-d" class="btn-ctrl">D</button>
+            </div>
+
+            <h3>GIMBAL CÁMARA (IJKL)</h3>
+            <div class="d-pad">
+                <div></div><button id="btn-i" class="btn-ctrl">I</button><div></div>
+                <button id="btn-j" class="btn-ctrl">J</button>
+                <button id="btn-k" class="btn-ctrl">K</button>
+                <button id="btn-l" class="btn-ctrl">L</button>
+            </div>
+            
+            <div class="data-grid mb-5">
+                <button class="btn-action" onclick="changeZoom(-0.5)" title="Tecla Z">Zoom - (Z)</button>
+                <button class="btn-action" onclick="changeZoom(0.5)" title="Tecla X">Zoom + (X)</button>
+            </div>
+            <button class="btn-action mb-20" onclick="centerCamera()">Centrar Cámara (C)</button>
+
+            <div id="panel-ultrasonic" class="hidden">
+                <h3>RADAR ULTRASONIDOS (Q/E)</h3>
+                <div class="data-grid">
+                    <button class="btn-action" onclick="moveUltrasonic('left')">◀ Izq (Q)</button>
+                    <button class="btn-action" onclick="moveUltrasonic('right')">Der (E) ▶</button>
+                    <button class="btn-action col-span-2" onclick="moveUltrasonic('center')">Centrar Radar (R)</button>
+                </div>
+            </div>
+
+            <h3>VELOCIDAD Y LUCES</h3>
+            <div class="data-grid">
+                <button class="btn-action" onclick="changeSpeed(-10)">VEL -</button>
+                <button class="btn-action" onclick="changeSpeed(10)">VEL +</button>
+                <button id="btn-lights" class="btn-action col-span-2" onclick="toggleLights()">Luces (F)</button>
+            </div>
+        </aside>
+    </div>
+
+    <div id="gallery-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>ARCHIVOS MULTIMEDIA</h2>
+                <button class="btn-ctrl btn-stop btn-pad-large" onclick="closeGallery()">CERRAR</button>
+            </div>
+            <div class="modal-body">
+                <div id="gallery-grid" class="gallery-grid">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/socket.io.min.js"></script>
+    <script src="js/script_manual.js"></script>
+</body>
+</html>
